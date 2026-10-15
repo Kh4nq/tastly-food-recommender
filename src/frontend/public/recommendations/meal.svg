@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="480" viewBox="0 0 640 480">
+  <rect width="640" height="480" fill="#f5eadb"/>
+  <circle cx="110" cy="65" r="140" fill="#efd2b8" opacity=".45"/>
+  <ellipse cx="320" cy="371" rx="187" ry="28" fill="#b99878" opacity=".18"/>
+  <ellipse cx="320" cy="350" rx="200" ry="42" fill="#fffbf5"/>
+  <path d="M158 228c7 95 61 132 162 132s155-37 162-132Z" fill="#ca7960"/>
+  <path d="M182 267q140 52 276 0" fill="none" stroke="#e7ac8d" stroke-width="5"/>
+  <ellipse cx="320" cy="228" rx="164" ry="63" fill="#fff9ec"/>
+  <ellipse cx="320" cy="231" rx="140" ry="45" fill="#d5a76e"/>
+  <path d="M221 235q30-52 58-4t58-6 63 8M229 250q25-43 51-6t54-5 54 7M253 208q25-32 49 2t50-1" fill="none" stroke="#f9e7b4" stroke-width="9" stroke-linecap="round"/>
+  <ellipse cx="375" cy="220" rx="28" ry="20" transform="rotate(-20 375 220)" fill="#fff8e4"/>
+  <ellipse cx="375" cy="220" rx="12" ry="11" fill="#e9ad4f"/>
+  <path d="M212 219q-18-33 5-42 22 7 18 32 11-33 29-20 2 22-37 36Z" fill="#7c9868"/>
+  <path d="M285 144q-14-17 1-35m32 27q-15-17 1-35m31 43q-15-17 1-35" fill="none" stroke="#d3bca1" stroke-width="5" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,133 @@
+@import "tailwindcss";
+
+:root {
+  --background: #fbf1e6;
+  --foreground: #1f1b16;
+  --scrollbar-thumb: rgba(221, 157, 112, 0.48);
+  --scrollbar-thumb-hover: rgba(209, 128, 79, 0.72);
+  --scrollbar-thumb-active: rgba(194, 108, 61, 0.82);
+  --scrollbar-track: transparent;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+
+  --color-cream: #fbf1e6;
+  --color-brick: #c0392b;
+  --color-brick-dark: #a93226;
+  --color-gold: #fbbf24;
+  --color-ink: #1f1b16;
+
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html { scroll-behavior: smooth; }
+
+/* Native scrollbars share one palette, including horizontal card strips. */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--scrollbar-thumb) var(--scrollbar-track);
+}
+
+@supports selector(::-webkit-scrollbar) {
+  /* Keep native overlay scrolling on touch devices and OS high-contrast colors. */
+  @media (pointer: fine) and (forced-colors: none) {
+    /* Chromium also implements the standard properties: reset them here so
+       they do not override the rounded thumb and its hover/drag states. */
+    * { scrollbar-width: auto; scrollbar-color: auto; }
+    *::-webkit-scrollbar { width: 8px; height: 8px; }
+    html::-webkit-scrollbar { width: 10px; height: 10px; }
+    .compact-scrollbar::-webkit-scrollbar { width: 7px; height: 7px; }
+    *::-webkit-scrollbar-track,
+    *::-webkit-scrollbar-corner { background: var(--scrollbar-track); }
+    *::-webkit-scrollbar-thumb {
+      background-color: var(--scrollbar-thumb);
+      border: 2px solid transparent;
+      border-radius: 999px;
+      background-clip: content-box;
+    }
+    *::-webkit-scrollbar-thumb:hover { background-color: var(--scrollbar-thumb-hover); }
+    *::-webkit-scrollbar-thumb:active { background-color: var(--scrollbar-thumb-active); }
+    *::-webkit-scrollbar-button { display: none; width: 0; height: 0; }
+  }
+}
+
+@media (forced-colors: active) {
+  * { scrollbar-color: auto; }
+}
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+}
+
+.tastly-loading-dot { animation: tastly-dot 1.2s ease-in-out infinite; }
+.tastly-loading-bowl { animation: tastly-bowl 2.6s ease-in-out infinite; }
+.tastly-loading-shimmer {
+  background-image: linear-gradient(100deg, transparent 25%, rgb(255 255 255 / 70%) 50%, transparent 75%);
+  background-size: 220% 100%;
+  animation: tastly-shimmer 2.4s ease-in-out infinite;
+}
+.tastly-results-arrive { animation: tastly-arrive 450ms cubic-bezier(.22,1,.36,1) both; }
+@keyframes tastly-dot { 0%, 70%, 100% { opacity: .3; transform: translateY(0); } 35% { opacity: 1; transform: translateY(-3px); } }
+@keyframes tastly-bowl { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-4px); } }
+@keyframes tastly-shimmer { from { background-position: 180% 0; } to { background-position: -80% 0; } }
+@keyframes tastly-arrive { from { opacity: 0; transform: translateY(5px); } to { opacity: 1; transform: translateY(0); } }
+@media (prefers-reduced-motion: reduce) {
+  .tastly-loading-dot, .tastly-loading-bowl, .tastly-loading-shimmer, .tastly-results-arrive { animation: none; }
+}
+
+.tastly-category-highlight {
+  animation: tastly-category-glow var(--category-cycle) ease-in-out infinite;
+}
+
+@keyframes tastly-category-glow {
+  0%, 11% { background-color: #f8dfce; }
+  14.2857%, 97% { background-color: #ffffff; }
+  100% { background-color: #f8dfce; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .tastly-category-highlight { animation: none; }
+}
+
+.tastly-map-popup { padding: 8px; color: #1f1b16; font-family: Arial, Helvetica, sans-serif; }
+.tastly-map-popup strong { display: block; padding-right: 28px; }
+.tastly-map-popup strong { font-size: 16px; }
+.tastly-map-popup p { margin: 8px 0; color: #737373; }
+.tastly-map-popup a { display: block; margin-top: 12px; padding: 8px 16px; border-radius: 12px; background: var(--background); color: #c0392b; text-align: center; font-weight: 600; }
+
+.tastly-place-popup .mapboxgl-popup-content,
+.mapboxgl-popup-content:has(> .tastly-map-popup) {
+  border-radius: 28px;
+  background: #fffdf9;
+  box-shadow: 0 4px 16px rgb(31 27 22 / 12%);
+}
+.mapboxgl-popup-content:has(> .tastly-map-popup) .mapboxgl-popup-close-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 8px;
+  right: 8px;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  color: #737373;
+  font-size: 24px;
+  line-height: 1;
+}
+.mapboxgl-popup-content:has(> .tastly-map-popup) .mapboxgl-popup-close-button:hover { background: var(--background); color: #c0392b; }
+.tastly-place-popup.mapboxgl-popup-anchor-top .mapboxgl-popup-tip,
+.tastly-place-popup.mapboxgl-popup-anchor-top-left .mapboxgl-popup-tip,
+.tastly-place-popup.mapboxgl-popup-anchor-top-right .mapboxgl-popup-tip { border-bottom-color: #fffdf9; }
+.tastly-place-popup.mapboxgl-popup-anchor-bottom .mapboxgl-popup-tip,
+.tastly-place-popup.mapboxgl-popup-anchor-bottom-left .mapboxgl-popup-tip,
+.tastly-place-popup.mapboxgl-popup-anchor-bottom-right .mapboxgl-popup-tip { border-top-color: #fffdf9; }
+.tastly-place-popup.mapboxgl-popup-anchor-left .mapboxgl-popup-tip { border-right-color: #fffdf9; }
+.tastly-place-popup.mapboxgl-popup-anchor-right .mapboxgl-popup-tip { border-left-color: #fffdf9; }

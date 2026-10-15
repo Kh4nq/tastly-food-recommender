@@ -1,0 +1,3 @@
+{"sample_id":"fixture-clear","category":"multiple","message":"giúp mình ăn ramen dưới 85k trong 4km nhé","current_state":{"session_id":"fixture-clear"},"source":"test_fixture"}
+{"sample_id":"fixture-unclear","category":"semantic","message":"mình muốn bánh cuốn cạnh bờ hồ yên tĩnh","current_state":{"session_id":"fixture-unclear"},"source":"test_fixture"}
+{"sample_id":"fixture-reference","category":"references","message":"quán thứ hai","current_state":{"session_id":"fixture-reference"},"previous_results":[{"rank":1,"restaurant_id":"FIXTURE-R1","menu_item_id":"FIXTURE-M1"},{"rank":2,"restaurant_id":"FIXTURE-R2","menu_item_id":"FIXTURE-M2"}],"source":"test_fixture"}

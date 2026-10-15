@@ -1,0 +1,30 @@
+# Replace these commented placeholders with verified GitHub usernames/team slugs.
+# Activate shared patterns first, then specific ownership (last match wins).
+# No active entries until actual owners with repository access are known.
+# /src/common/                 @AI1_GITHUB @AI2_GITHUB @AI3_GITHUB
+# /src/pipeline/               @AI1_GITHUB @AI2_GITHUB @AI3_GITHUB
+# /src/__init__.py             @AI1_GITHUB @AI2_GITHUB @AI3_GITHUB
+# /src/personalization/        @SHARED_GITHUB
+# /pyproject.toml              @SHARED_GITHUB
+# /README.md                   @SHARED_GITHUB
+# /.env.example                @SHARED_GITHUB
+# /.github/                    @SHARED_GITHUB
+# /tests/test_common_contracts.py @SHARED_GITHUB
+# /tests/test_module_imports.py   @SHARED_GITHUB
+# /tests/test_pipeline_mock.py    @SHARED_GITHUB
+# /src/retrieval/              @AI1_GITHUB
+# /data/raw/                   @AI1_GITHUB
+# /data/processed/             @AI1_GITHUB
+# /data/embeddings/            @AI1_GITHUB
+# /notebooks/ai1/              @AI1_GITHUB
+# /docs/ai1_retrieval.md        @AI1_GITHUB
+# /src/conversation/           @AI2_GITHUB
+# /data/ai2_interactive/        @AI2_GITHUB
+# /notebooks/ai2/              @AI2_GITHUB
+# /docs/ai2_conversation.md     @AI2_GITHUB
+# /src/ranking/                @AI3_GITHUB
+# /models/ranker/              @AI3_GITHUB
+# /models/metadata/            @AI3_GITHUB
+# /notebooks/ai3/              @AI3_GITHUB
+# /docs/ai3_ranking.md          @AI3_GITHUB
+# Add explicit test ownership using docs/team_ownership.md after names are known.

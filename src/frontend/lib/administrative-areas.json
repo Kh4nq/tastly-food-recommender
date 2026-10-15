@@ -1,0 +1,2354 @@
+[
+  {
+    "cityId": "hn",
+    "code": "00004",
+    "name": "Ba Đình",
+    "fullName": "Phường Ba Đình",
+    "lat": 21.039446,
+    "lon": 105.836365
+  },
+  {
+    "cityId": "hn",
+    "code": "00008",
+    "name": "Ngọc Hà",
+    "fullName": "Phường Ngọc Hà",
+    "lat": 21.039386,
+    "lon": 105.816857
+  },
+  {
+    "cityId": "hn",
+    "code": "00025",
+    "name": "Giảng Võ",
+    "fullName": "Phường Giảng Võ",
+    "lat": 21.02658,
+    "lon": 105.816703
+  },
+  {
+    "cityId": "hn",
+    "code": "00070",
+    "name": "Hòan Kiếm",
+    "fullName": "Phường Hòan Kiếm",
+    "lat": 21.032568,
+    "lon": 105.849714
+  },
+  {
+    "cityId": "hn",
+    "code": "00082",
+    "name": "Cửa Nam",
+    "fullName": "Phường Cửa Nam",
+    "lat": 21.02346,
+    "lon": 105.851133
+  },
+  {
+    "cityId": "hn",
+    "code": "00091",
+    "name": "Phú Thượng",
+    "fullName": "Phường Phú Thượng",
+    "lat": 21.084226,
+    "lon": 105.802035
+  },
+  {
+    "cityId": "hn",
+    "code": "00097",
+    "name": "Hồng Hà",
+    "fullName": "Phường Hồng Hà",
+    "lat": 21.047988,
+    "lon": 105.852511
+  },
+  {
+    "cityId": "hn",
+    "code": "00103",
+    "name": "Tây Hồ",
+    "fullName": "Phường Tây Hồ",
+    "lat": 21.062052,
+    "lon": 105.818413
+  },
+  {
+    "cityId": "hn",
+    "code": "00118",
+    "name": "Bồ Đề",
+    "fullName": "Phường Bồ Đề",
+    "lat": 21.051156,
+    "lon": 105.875859
+  },
+  {
+    "cityId": "hn",
+    "code": "00127",
+    "name": "Việt Hưng",
+    "fullName": "Phường Việt Hưng",
+    "lat": 21.062756,
+    "lon": 105.906107
+  },
+  {
+    "cityId": "hn",
+    "code": "00136",
+    "name": "Phúc Lợi",
+    "fullName": "Phường Phúc Lợi",
+    "lat": 21.041538,
+    "lon": 105.917787
+  },
+  {
+    "cityId": "hn",
+    "code": "00145",
+    "name": "Long Biên",
+    "fullName": "Phường Long Biên",
+    "lat": 21.022827,
+    "lon": 105.89906
+  },
+  {
+    "cityId": "hn",
+    "code": "00160",
+    "name": "Nghĩa Đô",
+    "fullName": "Phường Nghĩa Đô",
+    "lat": 21.043468,
+    "lon": 105.793561
+  },
+  {
+    "cityId": "hn",
+    "code": "00166",
+    "name": "Cầu Giấy",
+    "fullName": "Phường Cầu Giấy",
+    "lat": 21.029952,
+    "lon": 105.790254
+  },
+  {
+    "cityId": "hn",
+    "code": "00175",
+    "name": "Yên Hòa",
+    "fullName": "Phường Yên Hòa",
+    "lat": 21.014237,
+    "lon": 105.795383
+  },
+  {
+    "cityId": "hn",
+    "code": "00190",
+    "name": "Ô Chợ Dừa",
+    "fullName": "Phường Ô Chợ Dừa",
+    "lat": 21.022751,
+    "lon": 105.825623
+  },
+  {
+    "cityId": "hn",
+    "code": "00199",
+    "name": "Láng",
+    "fullName": "Phường Láng",
+    "lat": 21.021095,
+    "lon": 105.804846
+  },
+  {
+    "cityId": "hn",
+    "code": "00226",
+    "name": "Văn Miếu - Quốc Tử Giám",
+    "fullName": "Phường Văn Miếu - Quốc Tử Giám",
+    "lat": 21.01908,
+    "lon": 105.8358
+  },
+  {
+    "cityId": "hn",
+    "code": "00229",
+    "name": "Kim Liên",
+    "fullName": "Phường Kim Liên",
+    "lat": 21.006032,
+    "lon": 105.832101
+  },
+  {
+    "cityId": "hn",
+    "code": "00235",
+    "name": "Đống Đa",
+    "fullName": "Phường Đống Đa",
+    "lat": 21.011183,
+    "lon": 105.81836
+  },
+  {
+    "cityId": "hn",
+    "code": "00256",
+    "name": "Hai Bà Trưng",
+    "fullName": "Phường Hai Bà Trưng",
+    "lat": 21.014239,
+    "lon": 105.852235
+  },
+  {
+    "cityId": "hn",
+    "code": "00283",
+    "name": "Vĩnh Tuy",
+    "fullName": "Phường Vĩnh Tuy",
+    "lat": 20.997819,
+    "lon": 105.867849
+  },
+  {
+    "cityId": "hn",
+    "code": "00292",
+    "name": "Bạch Mai",
+    "fullName": "Phường Bạch Mai",
+    "lat": 21.002275,
+    "lon": 105.851454
+  },
+  {
+    "cityId": "hn",
+    "code": "00301",
+    "name": "Vĩnh Hưng",
+    "fullName": "Phường Vĩnh Hưng",
+    "lat": 20.99126,
+    "lon": 105.88288
+  },
+  {
+    "cityId": "hn",
+    "code": "00316",
+    "name": "Định Công",
+    "fullName": "Phường Định Công",
+    "lat": 20.97784,
+    "lon": 105.824439
+  },
+  {
+    "cityId": "hn",
+    "code": "00322",
+    "name": "Tương Mai",
+    "fullName": "Phường Tương Mai",
+    "lat": 20.990705,
+    "lon": 105.852698
+  },
+  {
+    "cityId": "hn",
+    "code": "00328",
+    "name": "Lĩnh Nam",
+    "fullName": "Phường Lĩnh Nam",
+    "lat": 20.975907,
+    "lon": 105.896085
+  },
+  {
+    "cityId": "hn",
+    "code": "00331",
+    "name": "Hòang Mai",
+    "fullName": "Phường Hòang Mai",
+    "lat": 20.973827,
+    "lon": 105.861761
+  },
+  {
+    "cityId": "hn",
+    "code": "00337",
+    "name": "Hòang Liệt",
+    "fullName": "Phường Hòang Liệt",
+    "lat": 20.961143,
+    "lon": 105.828219
+  },
+  {
+    "cityId": "hn",
+    "code": "00340",
+    "name": "Yên Sở",
+    "fullName": "Phường Yên Sở",
+    "lat": 20.954818,
+    "lon": 105.856615
+  },
+  {
+    "cityId": "hn",
+    "code": "00352",
+    "name": "Phương Liệt",
+    "fullName": "Phường Phương Liệt",
+    "lat": 20.99301,
+    "lon": 105.831382
+  },
+  {
+    "cityId": "hn",
+    "code": "00364",
+    "name": "Khương Đình",
+    "fullName": "Phường Khương Đình",
+    "lat": 20.991115,
+    "lon": 105.813125
+  },
+  {
+    "cityId": "hn",
+    "code": "00367",
+    "name": "Thanh Xuân",
+    "fullName": "Phường Thanh Xuân",
+    "lat": 20.999409,
+    "lon": 105.805864
+  },
+  {
+    "cityId": "hn",
+    "code": "00376",
+    "name": "Sóc Sơn",
+    "fullName": "Xã Sóc Sơn",
+    "lat": 21.245413,
+    "lon": 105.849825
+  },
+  {
+    "cityId": "hn",
+    "code": "00382",
+    "name": "Kim Anh",
+    "fullName": "Xã Kim Anh",
+    "lat": 21.295653,
+    "lon": 105.773678
+  },
+  {
+    "cityId": "hn",
+    "code": "00385",
+    "name": "Trung Giã",
+    "fullName": "Xã Trung Giã",
+    "lat": 21.331505,
+    "lon": 105.831598
+  },
+  {
+    "cityId": "hn",
+    "code": "00430",
+    "name": "Đa Phúc",
+    "fullName": "Xã Đa Phúc",
+    "lat": 21.247348,
+    "lon": 105.912963
+  },
+  {
+    "cityId": "hn",
+    "code": "00433",
+    "name": "Nội Bài",
+    "fullName": "Xã Nội Bài",
+    "lat": 21.23601,
+    "lon": 105.773593
+  },
+  {
+    "cityId": "hn",
+    "code": "00454",
+    "name": "Đông Anh",
+    "fullName": "Xã Đông Anh",
+    "lat": 21.110009,
+    "lon": 105.8758
+  },
+  {
+    "cityId": "hn",
+    "code": "00466",
+    "name": "Phúc Thịnh",
+    "fullName": "Xã Phúc Thịnh",
+    "lat": 21.158926,
+    "lon": 105.808701
+  },
+  {
+    "cityId": "hn",
+    "code": "00475",
+    "name": "Thư Lâm",
+    "fullName": "Xã Thư Lâm",
+    "lat": 21.162686,
+    "lon": 105.884435
+  },
+  {
+    "cityId": "hn",
+    "code": "00493",
+    "name": "Thiên Lộc",
+    "fullName": "Xã Thiên Lộc",
+    "lat": 21.126147,
+    "lon": 105.773125
+  },
+  {
+    "cityId": "hn",
+    "code": "00508",
+    "name": "Vĩnh Thanh",
+    "fullName": "Xã Vĩnh Thanh",
+    "lat": 21.103611,
+    "lon": 105.816573
+  },
+  {
+    "cityId": "hn",
+    "code": "00541",
+    "name": "Phù Đổng",
+    "fullName": "Xã Phù Đổng",
+    "lat": 21.079253,
+    "lon": 105.932518
+  },
+  {
+    "cityId": "hn",
+    "code": "00562",
+    "name": "Thuận An",
+    "fullName": "Xã Thuận An",
+    "lat": 21.032624,
+    "lon": 105.982216
+  },
+  {
+    "cityId": "hn",
+    "code": "00565",
+    "name": "Gia Lâm",
+    "fullName": "Xã Gia Lâm",
+    "lat": 21.002431,
+    "lon": 105.951483
+  },
+  {
+    "cityId": "hn",
+    "code": "00577",
+    "name": "Bát Tràng",
+    "fullName": "Xã Bát Tràng",
+    "lat": 20.969697,
+    "lon": 105.908059
+  },
+  {
+    "cityId": "hn",
+    "code": "00592",
+    "name": "Từ Liêm",
+    "fullName": "Phường Từ Liêm",
+    "lat": 21.021894,
+    "lon": 105.767156
+  },
+  {
+    "cityId": "hn",
+    "code": "00598",
+    "name": "Thượng Cát",
+    "fullName": "Phường Thượng Cát",
+    "lat": 21.086889,
+    "lon": 105.748865
+  },
+  {
+    "cityId": "hn",
+    "code": "00602",
+    "name": "Đông Ngạc",
+    "fullName": "Phường Đông Ngạc",
+    "lat": 21.076461,
+    "lon": 105.778847
+  },
+  {
+    "cityId": "hn",
+    "code": "00611",
+    "name": "Xuân Đỉnh",
+    "fullName": "Phường Xuân Đỉnh",
+    "lat": 21.065561,
+    "lon": 105.795557
+  },
+  {
+    "cityId": "hn",
+    "code": "00613",
+    "name": "Tây Tựu",
+    "fullName": "Phường Tây Tựu",
+    "lat": 21.065263,
+    "lon": 105.740199
+  },
+  {
+    "cityId": "hn",
+    "code": "00619",
+    "name": "Phú Diễn",
+    "fullName": "Phường Phú Diễn",
+    "lat": 21.04855,
+    "lon": 105.763744
+  },
+  {
+    "cityId": "hn",
+    "code": "00622",
+    "name": "Xuân Phương",
+    "fullName": "Phường Xuân Phương",
+    "lat": 21.031439,
+    "lon": 105.747999
+  },
+  {
+    "cityId": "hn",
+    "code": "00634",
+    "name": "Tây Mỗ",
+    "fullName": "Phường Tây Mỗ",
+    "lat": 21.000145,
+    "lon": 105.74782
+  },
+  {
+    "cityId": "hn",
+    "code": "00637",
+    "name": "Đại Mỗ",
+    "fullName": "Phường Đại Mỗ",
+    "lat": 20.993182,
+    "lon": 105.776807
+  },
+  {
+    "cityId": "hn",
+    "code": "00640",
+    "name": "Thanh Trì",
+    "fullName": "Xã Thanh Trì",
+    "lat": 20.939232,
+    "lon": 105.861202
+  },
+  {
+    "cityId": "hn",
+    "code": "00643",
+    "name": "Thanh Liệt",
+    "fullName": "Phường Thanh Liệt",
+    "lat": 20.970616,
+    "lon": 105.802382
+  },
+  {
+    "cityId": "hn",
+    "code": "00664",
+    "name": "Đại Thanh",
+    "fullName": "Xã Đại Thanh",
+    "lat": 20.934354,
+    "lon": 105.819467
+  },
+  {
+    "cityId": "hn",
+    "code": "00679",
+    "name": "Ngọc Hồi",
+    "fullName": "Xã Ngọc Hồi",
+    "lat": 20.912325,
+    "lon": 105.833581
+  },
+  {
+    "cityId": "hn",
+    "code": "00685",
+    "name": "Nam Phù",
+    "fullName": "Xã Nam Phù",
+    "lat": 20.918851,
+    "lon": 105.886535
+  },
+  {
+    "cityId": "hn",
+    "code": "04930",
+    "name": "Yên Xuân",
+    "fullName": "Xã Yên Xuân",
+    "lat": 20.973868,
+    "lon": 105.479097
+  },
+  {
+    "cityId": "hn",
+    "code": "08974",
+    "name": "Quang Minh",
+    "fullName": "Xã Quang Minh",
+    "lat": 21.198615,
+    "lon": 105.753336
+  },
+  {
+    "cityId": "hn",
+    "code": "08980",
+    "name": "Yên Lãng",
+    "fullName": "Xã Yên Lãng",
+    "lat": 21.171123,
+    "lon": 105.664171
+  },
+  {
+    "cityId": "hn",
+    "code": "08995",
+    "name": "Tiến Thắng",
+    "fullName": "Xã Tiến Thắng",
+    "lat": 21.207484,
+    "lon": 105.685021
+  },
+  {
+    "cityId": "hn",
+    "code": "09022",
+    "name": "Mê Linh",
+    "fullName": "Xã Mê Linh",
+    "lat": 21.146338,
+    "lon": 105.734602
+  },
+  {
+    "cityId": "hn",
+    "code": "09552",
+    "name": "Kiến Hưng",
+    "fullName": "Phường Kiến Hưng",
+    "lat": 20.954118,
+    "lon": 105.775362
+  },
+  {
+    "cityId": "hn",
+    "code": "09556",
+    "name": "Hà Đông",
+    "fullName": "Phường Hà Đông",
+    "lat": 20.974245,
+    "lon": 105.777865
+  },
+  {
+    "cityId": "hn",
+    "code": "09562",
+    "name": "Yên Nghĩa",
+    "fullName": "Phường Yên Nghĩa",
+    "lat": 20.938085,
+    "lon": 105.737322
+  },
+  {
+    "cityId": "hn",
+    "code": "09568",
+    "name": "Phú Lương",
+    "fullName": "Phường Phú Lương",
+    "lat": 20.938533,
+    "lon": 105.76706
+  },
+  {
+    "cityId": "hn",
+    "code": "09574",
+    "name": "Sơn Tây",
+    "fullName": "Phường Sơn Tây",
+    "lat": 21.142461,
+    "lon": 105.487144
+  },
+  {
+    "cityId": "hn",
+    "code": "09604",
+    "name": "Tùng Thiện",
+    "fullName": "Phường Tùng Thiện",
+    "lat": 21.122396,
+    "lon": 105.458355
+  },
+  {
+    "cityId": "hn",
+    "code": "09616",
+    "name": "Đoài Phương",
+    "fullName": "Xã Đoài Phương",
+    "lat": 21.064037,
+    "lon": 105.495124
+  },
+  {
+    "cityId": "hn",
+    "code": "09619",
+    "name": "Quảng Oai",
+    "fullName": "Xã Quảng Oai",
+    "lat": 21.182259,
+    "lon": 105.431896
+  },
+  {
+    "cityId": "hn",
+    "code": "09634",
+    "name": "Cổ Đô",
+    "fullName": "Xã Cổ Đô",
+    "lat": 21.266089,
+    "lon": 105.398117
+  },
+  {
+    "cityId": "hn",
+    "code": "09661",
+    "name": "Minh Châu",
+    "fullName": "Xã Minh Châu",
+    "lat": 21.212385,
+    "lon": 105.452009
+  },
+  {
+    "cityId": "hn",
+    "code": "09664",
+    "name": "Vật Lại",
+    "fullName": "Xã Vật Lại",
+    "lat": 21.211872,
+    "lon": 105.379935
+  },
+  {
+    "cityId": "hn",
+    "code": "09676",
+    "name": "Bất Bạt",
+    "fullName": "Xã Bất Bạt",
+    "lat": 21.139375,
+    "lon": 105.311014
+  },
+  {
+    "cityId": "hn",
+    "code": "09694",
+    "name": "Suối Hai",
+    "fullName": "Xã Suối Hai",
+    "lat": 21.124962,
+    "lon": 105.373963
+  },
+  {
+    "cityId": "hn",
+    "code": "09700",
+    "name": "Ba Vì",
+    "fullName": "Xã Ba Vì",
+    "lat": 21.060042,
+    "lon": 105.338363
+  },
+  {
+    "cityId": "hn",
+    "code": "09706",
+    "name": "Yên Bài",
+    "fullName": "Xã Yên Bài",
+    "lat": 21.058149,
+    "lon": 105.418712
+  },
+  {
+    "cityId": "hn",
+    "code": "09715",
+    "name": "Phúc Thọ",
+    "fullName": "Xã Phúc Thọ",
+    "lat": 21.107306,
+    "lon": 105.546425
+  },
+  {
+    "cityId": "hn",
+    "code": "09739",
+    "name": "Phúc Lộc",
+    "fullName": "Xã Phúc Lộc",
+    "lat": 21.145387,
+    "lon": 105.571748
+  },
+  {
+    "cityId": "hn",
+    "code": "09772",
+    "name": "Hát Môn",
+    "fullName": "Xã Hát Môn",
+    "lat": 21.089179,
+    "lon": 105.620074
+  },
+  {
+    "cityId": "hn",
+    "code": "09784",
+    "name": "Đan Phượng",
+    "fullName": "Xã Đan Phượng",
+    "lat": 21.094568,
+    "lon": 105.668468
+  },
+  {
+    "cityId": "hn",
+    "code": "09787",
+    "name": "Liên Minh",
+    "fullName": "Xã Liên Minh",
+    "lat": 21.131069,
+    "lon": 105.650446
+  },
+  {
+    "cityId": "hn",
+    "code": "09817",
+    "name": "Ô Diên",
+    "fullName": "Xã Ô Diên",
+    "lat": 21.106262,
+    "lon": 105.709706
+  },
+  {
+    "cityId": "hn",
+    "code": "09832",
+    "name": "Hòai Đức",
+    "fullName": "Xã Hòai Đức",
+    "lat": 21.061339,
+    "lon": 105.706427
+  },
+  {
+    "cityId": "hn",
+    "code": "09856",
+    "name": "Dương Hòa",
+    "fullName": "Xã Dương Hòa",
+    "lat": 21.049216,
+    "lon": 105.671185
+  },
+  {
+    "cityId": "hn",
+    "code": "09871",
+    "name": "Sơn Đồng",
+    "fullName": "Xã Sơn Đồng",
+    "lat": 21.027424,
+    "lon": 105.709357
+  },
+  {
+    "cityId": "hn",
+    "code": "09877",
+    "name": "An Khánh",
+    "fullName": "Xã An Khánh",
+    "lat": 20.983249,
+    "lon": 105.708326
+  },
+  {
+    "cityId": "hn",
+    "code": "09886",
+    "name": "Dương Nội",
+    "fullName": "Phường Dương Nội",
+    "lat": 20.974752,
+    "lon": 105.750303
+  },
+  {
+    "cityId": "hn",
+    "code": "09895",
+    "name": "Quốc Oai",
+    "fullName": "Xã Quốc Oai",
+    "lat": 21.008449,
+    "lon": 105.652427
+  },
+  {
+    "cityId": "hn",
+    "code": "09910",
+    "name": "Kiều Phú",
+    "fullName": "Xã Kiều Phú",
+    "lat": 20.974549,
+    "lon": 105.602375
+  },
+  {
+    "cityId": "hn",
+    "code": "09931",
+    "name": "Hưng Đạo",
+    "fullName": "Xã Hưng Đạo",
+    "lat": 20.969721,
+    "lon": 105.657839
+  },
+  {
+    "cityId": "hn",
+    "code": "09952",
+    "name": "Phú Cát",
+    "fullName": "Xã Phú Cát",
+    "lat": 20.949566,
+    "lon": 105.55683
+  },
+  {
+    "cityId": "hn",
+    "code": "09955",
+    "name": "Thạch Thất",
+    "fullName": "Xã Thạch Thất",
+    "lat": 21.066387,
+    "lon": 105.562011
+  },
+  {
+    "cityId": "hn",
+    "code": "09982",
+    "name": "Hạ Bằng",
+    "fullName": "Xã Hạ Bằng",
+    "lat": 21.016603,
+    "lon": 105.571047
+  },
+  {
+    "cityId": "hn",
+    "code": "09988",
+    "name": "Hòa Lạc",
+    "fullName": "Xã Hòa Lạc",
+    "lat": 21.013472,
+    "lon": 105.506372
+  },
+  {
+    "cityId": "hn",
+    "code": "10003",
+    "name": "Tây Phương",
+    "fullName": "Xã Tây Phương",
+    "lat": 21.039598,
+    "lon": 105.611831
+  },
+  {
+    "cityId": "hn",
+    "code": "10015",
+    "name": "Chương Mỹ",
+    "fullName": "Phường Chương Mỹ",
+    "lat": 20.925152,
+    "lon": 105.702647
+  },
+  {
+    "cityId": "hn",
+    "code": "10030",
+    "name": "Phú Nghĩa",
+    "fullName": "Xã Phú Nghĩa",
+    "lat": 20.918229,
+    "lon": 105.639628
+  },
+  {
+    "cityId": "hn",
+    "code": "10045",
+    "name": "Xuân Mai",
+    "fullName": "Xã Xuân Mai",
+    "lat": 20.860779,
+    "lon": 105.602607
+  },
+  {
+    "cityId": "hn",
+    "code": "10072",
+    "name": "Quảng Bị",
+    "fullName": "Xã Quảng Bị",
+    "lat": 20.871725,
+    "lon": 105.699163
+  },
+  {
+    "cityId": "hn",
+    "code": "10081",
+    "name": "Trần Phú",
+    "fullName": "Xã Trần Phú",
+    "lat": 20.836936,
+    "lon": 105.662681
+  },
+  {
+    "cityId": "hn",
+    "code": "10096",
+    "name": "Hòa Phú",
+    "fullName": "Xã Hòa Phú",
+    "lat": 20.832087,
+    "lon": 105.72501
+  },
+  {
+    "cityId": "hn",
+    "code": "10114",
+    "name": "Thanh Oai",
+    "fullName": "Xã Thanh Oai",
+    "lat": 20.844537,
+    "lon": 105.767682
+  },
+  {
+    "cityId": "hn",
+    "code": "10126",
+    "name": "Bình Minh",
+    "fullName": "Xã Bình Minh",
+    "lat": 20.904826,
+    "lon": 105.757668
+  },
+  {
+    "cityId": "hn",
+    "code": "10144",
+    "name": "Tam Hưng",
+    "fullName": "Xã Tam Hưng",
+    "lat": 20.878464,
+    "lon": 105.793346
+  },
+  {
+    "cityId": "hn",
+    "code": "10180",
+    "name": "Dân Hòa",
+    "fullName": "Xã Dân Hòa",
+    "lat": 20.810673,
+    "lon": 105.794576
+  },
+  {
+    "cityId": "hn",
+    "code": "10183",
+    "name": "Thường Tín",
+    "fullName": "Xã Thường Tín",
+    "lat": 20.870018,
+    "lon": 105.844579
+  },
+  {
+    "cityId": "hn",
+    "code": "10210",
+    "name": "Hồng Vân",
+    "fullName": "Xã Hồng Vân",
+    "lat": 20.879877,
+    "lon": 105.898443
+  },
+  {
+    "cityId": "hn",
+    "code": "10231",
+    "name": "Thượng Phúc",
+    "fullName": "Xã Thượng Phúc",
+    "lat": 20.829831,
+    "lon": 105.847823
+  },
+  {
+    "cityId": "hn",
+    "code": "10237",
+    "name": "Chương Dương",
+    "fullName": "Xã Chương Dương",
+    "lat": 20.835654,
+    "lon": 105.89812
+  },
+  {
+    "cityId": "hn",
+    "code": "10273",
+    "name": "Phú Xuyên",
+    "fullName": "Xã Phú Xuyên",
+    "lat": 20.763812,
+    "lon": 105.922922
+  },
+  {
+    "cityId": "hn",
+    "code": "10279",
+    "name": "Phượng Dực",
+    "fullName": "Xã Phượng Dực",
+    "lat": 20.771898,
+    "lon": 105.842087
+  },
+  {
+    "cityId": "hn",
+    "code": "10330",
+    "name": "Chuyên Mỹ",
+    "fullName": "Xã Chuyên Mỹ",
+    "lat": 20.715583,
+    "lon": 105.881226
+  },
+  {
+    "cityId": "hn",
+    "code": "10342",
+    "name": "Đại Xuyên",
+    "fullName": "Xã Đại Xuyên",
+    "lat": 20.697205,
+    "lon": 105.953318
+  },
+  {
+    "cityId": "hn",
+    "code": "10354",
+    "name": "Vân Đình",
+    "fullName": "Xã Vân Đình",
+    "lat": 20.736204,
+    "lon": 105.774979
+  },
+  {
+    "cityId": "hn",
+    "code": "10369",
+    "name": "Ứng Thiên",
+    "fullName": "Xã Ứng Thiên",
+    "lat": 20.773477,
+    "lon": 105.770718
+  },
+  {
+    "cityId": "hn",
+    "code": "10402",
+    "name": "Ứng Hòa",
+    "fullName": "Xã Ứng Hòa",
+    "lat": 20.692428,
+    "lon": 105.84047
+  },
+  {
+    "cityId": "hn",
+    "code": "10417",
+    "name": "Hòa Xá",
+    "fullName": "Xã Hòa Xá",
+    "lat": 20.667175,
+    "lon": 105.799746
+  },
+  {
+    "cityId": "hn",
+    "code": "10441",
+    "name": "Mỹ Đức",
+    "fullName": "Xã Mỹ Đức",
+    "lat": 20.654488,
+    "lon": 105.697443
+  },
+  {
+    "cityId": "hn",
+    "code": "10459",
+    "name": "Phúc Sơn",
+    "fullName": "Xã Phúc Sơn",
+    "lat": 20.781371,
+    "lon": 105.683977
+  },
+  {
+    "cityId": "hn",
+    "code": "10465",
+    "name": "Hồng Sơn",
+    "fullName": "Xã Hồng Sơn",
+    "lat": 20.715911,
+    "lon": 105.714999
+  },
+  {
+    "cityId": "hn",
+    "code": "10489",
+    "name": "Hương Sơn",
+    "fullName": "Xã Hương Sơn",
+    "lat": 20.619903,
+    "lon": 105.753444
+  },
+  {
+    "cityId": "hcm",
+    "code": "25747",
+    "name": "Thủ Dầu Một",
+    "fullName": "Phường Thủ Dầu Một",
+    "lat": 10.968151,
+    "lon": 106.664339
+  },
+  {
+    "cityId": "hcm",
+    "code": "25750",
+    "name": "Phú Lợi",
+    "fullName": "Phường Phú Lợi",
+    "lat": 10.987579,
+    "lon": 106.680579
+  },
+  {
+    "cityId": "hcm",
+    "code": "25760",
+    "name": "Bình Dương",
+    "fullName": "Phường Bình Dương",
+    "lat": 11.054804,
+    "lon": 106.689066
+  },
+  {
+    "cityId": "hcm",
+    "code": "25768",
+    "name": "Phú An",
+    "fullName": "Phường Phú An",
+    "lat": 11.048453,
+    "lon": 106.601733
+  },
+  {
+    "cityId": "hcm",
+    "code": "25771",
+    "name": "Chánh Hiệp",
+    "fullName": "Phường Chánh Hiệp",
+    "lat": 11.018523,
+    "lon": 106.641732
+  },
+  {
+    "cityId": "hcm",
+    "code": "25777",
+    "name": "Dầu Tiếng",
+    "fullName": "Xã Dầu Tiếng",
+    "lat": 11.332531,
+    "lon": 106.401541
+  },
+  {
+    "cityId": "hcm",
+    "code": "25780",
+    "name": "Minh Thạnh",
+    "fullName": "Xã Minh Thạnh",
+    "lat": 11.443715,
+    "lon": 106.465327
+  },
+  {
+    "cityId": "hcm",
+    "code": "25792",
+    "name": "Long Hòa",
+    "fullName": "Xã Long Hòa",
+    "lat": 11.327637,
+    "lon": 106.508776
+  },
+  {
+    "cityId": "hcm",
+    "code": "25807",
+    "name": "Thanh An",
+    "fullName": "Xã Thanh An",
+    "lat": 11.24823,
+    "lon": 106.431383
+  },
+  {
+    "cityId": "hcm",
+    "code": "25813",
+    "name": "Bến Cát",
+    "fullName": "Phường Bến Cát",
+    "lat": 11.204112,
+    "lon": 106.615422
+  },
+  {
+    "cityId": "hcm",
+    "code": "25819",
+    "name": "Trừ Văn Thố",
+    "fullName": "Xã Trừ Văn Thố",
+    "lat": 11.340546,
+    "lon": 106.592804
+  },
+  {
+    "cityId": "hcm",
+    "code": "25822",
+    "name": "Bàu Bàng",
+    "fullName": "Xã Bàu Bàng",
+    "lat": 11.273501,
+    "lon": 106.605642
+  },
+  {
+    "cityId": "hcm",
+    "code": "25837",
+    "name": "Chánh Phú Hòa",
+    "fullName": "Phường Chánh Phú Hòa",
+    "lat": 11.188179,
+    "lon": 106.669932
+  },
+  {
+    "cityId": "hcm",
+    "code": "25840",
+    "name": "Long Nguyên",
+    "fullName": "Phường Long Nguyên",
+    "lat": 11.16796,
+    "lon": 106.561866
+  },
+  {
+    "cityId": "hcm",
+    "code": "25843",
+    "name": "Tây Nam",
+    "fullName": "Phường Tây Nam",
+    "lat": 11.13249,
+    "lon": 106.533425
+  },
+  {
+    "cityId": "hcm",
+    "code": "25846",
+    "name": "Thới Hòa",
+    "fullName": "Phường Thới Hòa",
+    "lat": 11.102864,
+    "lon": 106.62616
+  },
+  {
+    "cityId": "hcm",
+    "code": "25849",
+    "name": "Hòa Lợi",
+    "fullName": "Phường Hòa Lợi",
+    "lat": 11.0836,
+    "lon": 106.656672
+  },
+  {
+    "cityId": "hcm",
+    "code": "25858",
+    "name": "Phú Giáo",
+    "fullName": "Xã Phú Giáo",
+    "lat": 11.307123,
+    "lon": 106.861008
+  },
+  {
+    "cityId": "hcm",
+    "code": "25864",
+    "name": "Phước Thành",
+    "fullName": "Xã Phước Thành",
+    "lat": 11.385112,
+    "lon": 106.751499
+  },
+  {
+    "cityId": "hcm",
+    "code": "25867",
+    "name": "An Long",
+    "fullName": "Xã An Long",
+    "lat": 11.325933,
+    "lon": 106.689781
+  },
+  {
+    "cityId": "hcm",
+    "code": "25882",
+    "name": "Phước Hòa",
+    "fullName": "Xã Phước Hòa",
+    "lat": 11.253622,
+    "lon": 106.773328
+  },
+  {
+    "cityId": "hcm",
+    "code": "25888",
+    "name": "Tân Uyên",
+    "fullName": "Phường Tân Uyên",
+    "lat": 11.09143,
+    "lon": 106.799008
+  },
+  {
+    "cityId": "hcm",
+    "code": "25891",
+    "name": "Tân Khánh",
+    "fullName": "Phường Tân Khánh",
+    "lat": 10.999719,
+    "lon": 106.740472
+  },
+  {
+    "cityId": "hcm",
+    "code": "25906",
+    "name": "Bắc Tân Uyên",
+    "fullName": "Xã Bắc Tân Uyên",
+    "lat": 11.171189,
+    "lon": 106.863456
+  },
+  {
+    "cityId": "hcm",
+    "code": "25909",
+    "name": "Thường Tân",
+    "fullName": "Xã Thường Tân",
+    "lat": 11.104874,
+    "lon": 106.919445
+  },
+  {
+    "cityId": "hcm",
+    "code": "25912",
+    "name": "Vĩnh Tân",
+    "fullName": "Phường Vĩnh Tân",
+    "lat": 11.137937,
+    "lon": 106.69897
+  },
+  {
+    "cityId": "hcm",
+    "code": "25915",
+    "name": "Bình Cơ",
+    "fullName": "Phường Bình Cơ",
+    "lat": 11.152515,
+    "lon": 106.743806
+  },
+  {
+    "cityId": "hcm",
+    "code": "25920",
+    "name": "Tân Hiệp",
+    "fullName": "Phường Tân Hiệp",
+    "lat": 11.061803,
+    "lon": 106.743145
+  },
+  {
+    "cityId": "hcm",
+    "code": "25942",
+    "name": "Dĩ An",
+    "fullName": "Phường Dĩ An",
+    "lat": 10.901434,
+    "lon": 106.755342
+  },
+  {
+    "cityId": "hcm",
+    "code": "25945",
+    "name": "Tân Đông Hiệp",
+    "fullName": "Phường Tân Đông Hiệp",
+    "lat": 10.943637,
+    "lon": 106.759462
+  },
+  {
+    "cityId": "hcm",
+    "code": "25951",
+    "name": "Đông Hòa",
+    "fullName": "Phường Đông Hòa",
+    "lat": 10.893953,
+    "lon": 106.796447
+  },
+  {
+    "cityId": "hcm",
+    "code": "25966",
+    "name": "Lái Thiêu",
+    "fullName": "Phường Lái Thiêu",
+    "lat": 10.906423,
+    "lon": 106.702298
+  },
+  {
+    "cityId": "hcm",
+    "code": "25969",
+    "name": "Thuận Giao",
+    "fullName": "Phường Thuận Giao",
+    "lat": 10.962663,
+    "lon": 106.708516
+  },
+  {
+    "cityId": "hcm",
+    "code": "25975",
+    "name": "An Phú",
+    "fullName": "Phường An Phú",
+    "lat": 10.959464,
+    "lon": 106.737428
+  },
+  {
+    "cityId": "hcm",
+    "code": "25978",
+    "name": "Thuận An",
+    "fullName": "Phường Thuận An",
+    "lat": 10.942191,
+    "lon": 106.682413
+  },
+  {
+    "cityId": "hcm",
+    "code": "25987",
+    "name": "Bình Hòa",
+    "fullName": "Phường Bình Hòa",
+    "lat": 10.90052,
+    "lon": 106.725724
+  },
+  {
+    "cityId": "hcm",
+    "code": "26506",
+    "name": "Vũng Tàu",
+    "fullName": "Phường Vũng Tàu",
+    "lat": 10.353787,
+    "lon": 107.074302
+  },
+  {
+    "cityId": "hcm",
+    "code": "26526",
+    "name": "Tam Thắng",
+    "fullName": "Phường Tam Thắng",
+    "lat": 10.368532,
+    "lon": 107.097356
+  },
+  {
+    "cityId": "hcm",
+    "code": "26536",
+    "name": "Rạch Dừa",
+    "fullName": "Phường Rạch Dừa",
+    "lat": 10.391012,
+    "lon": 107.109159
+  },
+  {
+    "cityId": "hcm",
+    "code": "26542",
+    "name": "Phước Thắng",
+    "fullName": "Phường Phước Thắng",
+    "lat": 10.424764,
+    "lon": 107.167089
+  },
+  {
+    "cityId": "hcm",
+    "code": "26545",
+    "name": "Long Sơn",
+    "fullName": "Xã Long Sơn",
+    "lat": 10.449399,
+    "lon": 107.10391
+  },
+  {
+    "cityId": "hcm",
+    "code": "26560",
+    "name": "Bà Rịa",
+    "fullName": "Phường Bà Rịa",
+    "lat": 10.494981,
+    "lon": 107.184966
+  },
+  {
+    "cityId": "hcm",
+    "code": "26566",
+    "name": "Long Hương",
+    "fullName": "Phường Long Hương",
+    "lat": 10.507247,
+    "lon": 107.147642
+  },
+  {
+    "cityId": "hcm",
+    "code": "26572",
+    "name": "Tam Long",
+    "fullName": "Phường Tam Long",
+    "lat": 10.528926,
+    "lon": 107.215173
+  },
+  {
+    "cityId": "hcm",
+    "code": "26575",
+    "name": "Ngãi Giao",
+    "fullName": "Xã Ngãi Giao",
+    "lat": 10.622635,
+    "lon": 107.209472
+  },
+  {
+    "cityId": "hcm",
+    "code": "26584",
+    "name": "Xuân Sơn",
+    "fullName": "Xã Xuân Sơn",
+    "lat": 10.617389,
+    "lon": 107.332361
+  },
+  {
+    "cityId": "hcm",
+    "code": "26590",
+    "name": "Bình Giã",
+    "fullName": "Xã Bình Giã",
+    "lat": 10.679126,
+    "lon": 107.286949
+  },
+  {
+    "cityId": "hcm",
+    "code": "26596",
+    "name": "Châu Đức",
+    "fullName": "Xã Châu Đức",
+    "lat": 10.727802,
+    "lon": 107.213183
+  },
+  {
+    "cityId": "hcm",
+    "code": "26608",
+    "name": "Kim Long",
+    "fullName": "Xã Kim Long",
+    "lat": 10.674133,
+    "lon": 107.214372
+  },
+  {
+    "cityId": "hcm",
+    "code": "26617",
+    "name": "Nghĩa Thành",
+    "fullName": "Xã Nghĩa Thành",
+    "lat": 10.583234,
+    "lon": 107.263693
+  },
+  {
+    "cityId": "hcm",
+    "code": "26620",
+    "name": "Hồ Tràm",
+    "fullName": "Xã Hồ Tràm",
+    "lat": 10.520591,
+    "lon": 107.399751
+  },
+  {
+    "cityId": "hcm",
+    "code": "26632",
+    "name": "Xuyên Mộc",
+    "fullName": "Xã Xuyên Mộc",
+    "lat": 10.551136,
+    "lon": 107.45885
+  },
+  {
+    "cityId": "hcm",
+    "code": "26638",
+    "name": "Bàu Lâm",
+    "fullName": "Xã Bàu Lâm",
+    "lat": 10.737163,
+    "lon": 107.418171
+  },
+  {
+    "cityId": "hcm",
+    "code": "26641",
+    "name": "Hòa Hội",
+    "fullName": "Xã Hòa Hội",
+    "lat": 10.627754,
+    "lon": 107.425897
+  },
+  {
+    "cityId": "hcm",
+    "code": "26647",
+    "name": "Hòa Hiệp",
+    "fullName": "Xã Hòa Hiệp",
+    "lat": 10.707888,
+    "lon": 107.494405
+  },
+  {
+    "cityId": "hcm",
+    "code": "26656",
+    "name": "Bình Châu",
+    "fullName": "Xã Bình Châu",
+    "lat": 10.578314,
+    "lon": 107.540044
+  },
+  {
+    "cityId": "hcm",
+    "code": "26659",
+    "name": "Long Điền",
+    "fullName": "Xã Long Điền",
+    "lat": 10.469013,
+    "lon": 107.220368
+  },
+  {
+    "cityId": "hcm",
+    "code": "26662",
+    "name": "Long Hải",
+    "fullName": "Xã Long Hải",
+    "lat": 10.407433,
+    "lon": 107.212431
+  },
+  {
+    "cityId": "hcm",
+    "code": "26680",
+    "name": "Đất Đỏ",
+    "fullName": "Xã Đất Đỏ",
+    "lat": 10.517949,
+    "lon": 107.307058
+  },
+  {
+    "cityId": "hcm",
+    "code": "26686",
+    "name": "Phước Hải",
+    "fullName": "Xã Phước Hải",
+    "lat": 10.438997,
+    "lon": 107.281709
+  },
+  {
+    "cityId": "hcm",
+    "code": "26704",
+    "name": "Phú Mỹ",
+    "fullName": "Phường Phú Mỹ",
+    "lat": 10.601809,
+    "lon": 107.052389
+  },
+  {
+    "cityId": "hcm",
+    "code": "26710",
+    "name": "Tân Hải",
+    "fullName": "Phường Tân Hải",
+    "lat": 10.51447,
+    "lon": 107.107284
+  },
+  {
+    "cityId": "hcm",
+    "code": "26713",
+    "name": "Tân Phước",
+    "fullName": "Phường Tân Phước",
+    "lat": 10.527922,
+    "lon": 107.052641
+  },
+  {
+    "cityId": "hcm",
+    "code": "26725",
+    "name": "Tân Thành",
+    "fullName": "Phường Tân Thành",
+    "lat": 10.665626,
+    "lon": 107.136793
+  },
+  {
+    "cityId": "hcm",
+    "code": "26728",
+    "name": "Châu Pha",
+    "fullName": "Xã Châu Pha",
+    "lat": 10.580738,
+    "lon": 107.133991
+  },
+  {
+    "cityId": "hcm",
+    "code": "26732",
+    "name": "Côn Đảo",
+    "fullName": "Đặc khu Côn Đảo",
+    "lat": 8.700285,
+    "lon": 106.606242
+  },
+  {
+    "cityId": "hcm",
+    "code": "26737",
+    "name": "Tân Định",
+    "fullName": "Phường Tân Định",
+    "lat": 10.790895,
+    "lon": 106.695003
+  },
+  {
+    "cityId": "hcm",
+    "code": "26740",
+    "name": "Sài Gòn",
+    "fullName": "Phường Sài Gòn",
+    "lat": 10.779947,
+    "lon": 106.702495
+  },
+  {
+    "cityId": "hcm",
+    "code": "26743",
+    "name": "Bến Thành",
+    "fullName": "Phường Bến Thành",
+    "lat": 10.771434,
+    "lon": 106.69415
+  },
+  {
+    "cityId": "hcm",
+    "code": "26758",
+    "name": "Cầu Ông Lãnh",
+    "fullName": "Phường Cầu Ông Lãnh",
+    "lat": 10.760974,
+    "lon": 106.689897
+  },
+  {
+    "cityId": "hcm",
+    "code": "26767",
+    "name": "An Phú Đông",
+    "fullName": "Phường An Phú Đông",
+    "lat": 10.867138,
+    "lon": 106.690429
+  },
+  {
+    "cityId": "hcm",
+    "code": "26773",
+    "name": "Thới An",
+    "fullName": "Phường Thới An",
+    "lat": 10.878591,
+    "lon": 106.663542
+  },
+  {
+    "cityId": "hcm",
+    "code": "26782",
+    "name": "Tân Thới Hiệp",
+    "fullName": "Phường Tân Thới Hiệp",
+    "lat": 10.873397,
+    "lon": 106.640561
+  },
+  {
+    "cityId": "hcm",
+    "code": "26785",
+    "name": "Trung Mỹ Tây",
+    "fullName": "Phường Trung Mỹ Tây",
+    "lat": 10.859926,
+    "lon": 106.620911
+  },
+  {
+    "cityId": "hcm",
+    "code": "26791",
+    "name": "Đông Hưng Thuận",
+    "fullName": "Phường Đông Hưng Thuận",
+    "lat": 10.837321,
+    "lon": 106.620743
+  },
+  {
+    "cityId": "hcm",
+    "code": "26800",
+    "name": "Linh Xuân",
+    "fullName": "Phường Linh Xuân",
+    "lat": 10.87126,
+    "lon": 106.797906
+  },
+  {
+    "cityId": "hcm",
+    "code": "26803",
+    "name": "Tam Bình",
+    "fullName": "Phường Tam Bình",
+    "lat": 10.870801,
+    "lon": 106.735761
+  },
+  {
+    "cityId": "hcm",
+    "code": "26809",
+    "name": "Hiệp Bình",
+    "fullName": "Phường Hiệp Bình",
+    "lat": 10.846621,
+    "lon": 106.718133
+  },
+  {
+    "cityId": "hcm",
+    "code": "26824",
+    "name": "Thủ Đức",
+    "fullName": "Phường Thủ Đức",
+    "lat": 10.837217,
+    "lon": 106.753216
+  },
+  {
+    "cityId": "hcm",
+    "code": "26833",
+    "name": "Long Bình",
+    "fullName": "Phường Long Bình",
+    "lat": 10.863891,
+    "lon": 106.830242
+  },
+  {
+    "cityId": "hcm",
+    "code": "26842",
+    "name": "Tăng Nhơn Phú",
+    "fullName": "Phường Tăng Nhơn Phú",
+    "lat": 10.84295,
+    "lon": 106.792658
+  },
+  {
+    "cityId": "hcm",
+    "code": "26848",
+    "name": "Phước Long",
+    "fullName": "Phường Phước Long",
+    "lat": 10.817653,
+    "lon": 106.773075
+  },
+  {
+    "cityId": "hcm",
+    "code": "26857",
+    "name": "Long Phước",
+    "fullName": "Phường Long Phước",
+    "lat": 10.803054,
+    "lon": 106.858992
+  },
+  {
+    "cityId": "hcm",
+    "code": "26860",
+    "name": "Long Trường",
+    "fullName": "Phường Long Trường",
+    "lat": 10.793174,
+    "lon": 106.809535
+  },
+  {
+    "cityId": "hcm",
+    "code": "26876",
+    "name": "An Nhơn",
+    "fullName": "Phường An Nhơn",
+    "lat": 10.836272,
+    "lon": 106.685814
+  },
+  {
+    "cityId": "hcm",
+    "code": "26878",
+    "name": "An Hội Đông",
+    "fullName": "Phường An Hội Đông",
+    "lat": 10.849632,
+    "lon": 106.666342
+  },
+  {
+    "cityId": "hcm",
+    "code": "26882",
+    "name": "An Hội Tây",
+    "fullName": "Phường An Hội Tây",
+    "lat": 10.844501,
+    "lon": 106.637108
+  },
+  {
+    "cityId": "hcm",
+    "code": "26884",
+    "name": "Gò Vấp",
+    "fullName": "Phường Gò Vấp",
+    "lat": 10.839154,
+    "lon": 106.675139
+  },
+  {
+    "cityId": "hcm",
+    "code": "26890",
+    "name": "Hạnh Thông",
+    "fullName": "Phường Hạnh Thông",
+    "lat": 10.822188,
+    "lon": 106.680842
+  },
+  {
+    "cityId": "hcm",
+    "code": "26898",
+    "name": "Thông Tây Hội",
+    "fullName": "Phường Thông Tây Hội",
+    "lat": 10.841155,
+    "lon": 106.65484
+  },
+  {
+    "cityId": "hcm",
+    "code": "26905",
+    "name": "Bình Lợi Trung",
+    "fullName": "Phường Bình Lợi Trung",
+    "lat": 10.822181,
+    "lon": 106.702646
+  },
+  {
+    "cityId": "hcm",
+    "code": "26911",
+    "name": "Bình Quới",
+    "fullName": "Phường Bình Quới",
+    "lat": 10.822004,
+    "lon": 106.738541
+  },
+  {
+    "cityId": "hcm",
+    "code": "26929",
+    "name": "Bình Thạnh",
+    "fullName": "Phường Bình Thạnh",
+    "lat": 10.811695,
+    "lon": 106.704918
+  },
+  {
+    "cityId": "hcm",
+    "code": "26944",
+    "name": "Gia Định",
+    "fullName": "Phường Gia Định",
+    "lat": 10.801427,
+    "lon": 106.701723
+  },
+  {
+    "cityId": "hcm",
+    "code": "26956",
+    "name": "Thạnh Mỹ Tây",
+    "fullName": "Phường Thạnh Mỹ Tây",
+    "lat": 10.799826,
+    "lon": 106.71915
+  },
+  {
+    "cityId": "hcm",
+    "code": "26968",
+    "name": "Tân Sơn Nhất",
+    "fullName": "Phường Tân Sơn Nhất",
+    "lat": 10.796716,
+    "lon": 106.657629
+  },
+  {
+    "cityId": "hcm",
+    "code": "26977",
+    "name": "Tân Sơn Hòa",
+    "fullName": "Phường Tân Sơn Hòa",
+    "lat": 10.80525,
+    "lon": 106.666873
+  },
+  {
+    "cityId": "hcm",
+    "code": "26983",
+    "name": "Bảy Hiền",
+    "fullName": "Phường Bảy Hiền",
+    "lat": 10.792113,
+    "lon": 106.648508
+  },
+  {
+    "cityId": "hcm",
+    "code": "26995",
+    "name": "Tân Hòa",
+    "fullName": "Phường Tân Hòa",
+    "lat": 10.779747,
+    "lon": 106.653912
+  },
+  {
+    "cityId": "hcm",
+    "code": "27004",
+    "name": "Tân Bình",
+    "fullName": "Phường Tân Bình",
+    "lat": 10.798303,
+    "lon": 106.642353
+  },
+  {
+    "cityId": "hcm",
+    "code": "27007",
+    "name": "Tân Sơn",
+    "fullName": "Phường Tân Sơn",
+    "lat": 10.819137,
+    "lon": 106.648107
+  },
+  {
+    "cityId": "hcm",
+    "code": "27013",
+    "name": "Tây Thạnh",
+    "fullName": "Phường Tây Thạnh",
+    "lat": 10.813769,
+    "lon": 106.620748
+  },
+  {
+    "cityId": "hcm",
+    "code": "27019",
+    "name": "Tân Sơn Nhì",
+    "fullName": "Phường Tân Sơn Nhì",
+    "lat": 10.801298,
+    "lon": 106.623899
+  },
+  {
+    "cityId": "hcm",
+    "code": "27022",
+    "name": "Phú Thọ Hòa",
+    "fullName": "Phường Phú Thọ Hòa",
+    "lat": 10.788283,
+    "lon": 106.627173
+  },
+  {
+    "cityId": "hcm",
+    "code": "27028",
+    "name": "Phú Thạnh",
+    "fullName": "Phường Phú Thạnh",
+    "lat": 10.771589,
+    "lon": 106.626997
+  },
+  {
+    "cityId": "hcm",
+    "code": "27031",
+    "name": "Tân Phú",
+    "fullName": "Phường Tân Phú",
+    "lat": 10.777496,
+    "lon": 106.640342
+  },
+  {
+    "cityId": "hcm",
+    "code": "27043",
+    "name": "Đức Nhuận",
+    "fullName": "Phường Đức Nhuận",
+    "lat": 10.806638,
+    "lon": 106.676835
+  },
+  {
+    "cityId": "hcm",
+    "code": "27058",
+    "name": "Cầu Kiệu",
+    "fullName": "Phường Cầu Kiệu",
+    "lat": 10.798184,
+    "lon": 106.684723
+  },
+  {
+    "cityId": "hcm",
+    "code": "27073",
+    "name": "Phú Nhuận",
+    "fullName": "Phường Phú Nhuận",
+    "lat": 10.793975,
+    "lon": 106.673317
+  },
+  {
+    "cityId": "hcm",
+    "code": "27094",
+    "name": "An Khánh",
+    "fullName": "Phường An Khánh",
+    "lat": 10.789544,
+    "lon": 106.730891
+  },
+  {
+    "cityId": "hcm",
+    "code": "27097",
+    "name": "Bình Trưng",
+    "fullName": "Phường Bình Trưng",
+    "lat": 10.793926,
+    "lon": 106.759506
+  },
+  {
+    "cityId": "hcm",
+    "code": "27112",
+    "name": "Cát Lái",
+    "fullName": "Phường Cát Lái",
+    "lat": 10.76237,
+    "lon": 106.777828
+  },
+  {
+    "cityId": "hcm",
+    "code": "27139",
+    "name": "Xuân Hòa",
+    "fullName": "Phường Xuân Hòa",
+    "lat": 10.784813,
+    "lon": 106.689572
+  },
+  {
+    "cityId": "hcm",
+    "code": "27142",
+    "name": "Nhiêu Lộc",
+    "fullName": "Phường Nhiêu Lộc",
+    "lat": 10.784584,
+    "lon": 106.676459
+  },
+  {
+    "cityId": "hcm",
+    "code": "27154",
+    "name": "Bàn Cờ",
+    "fullName": "Phường Bàn Cờ",
+    "lat": 10.770906,
+    "lon": 106.68194
+  },
+  {
+    "cityId": "hcm",
+    "code": "27163",
+    "name": "Hòa Hưng",
+    "fullName": "Phường Hòa Hưng",
+    "lat": 10.777251,
+    "lon": 106.671843
+  },
+  {
+    "cityId": "hcm",
+    "code": "27169",
+    "name": "Diên Hồng",
+    "fullName": "Phường Diên Hồng",
+    "lat": 10.769485,
+    "lon": 106.662347
+  },
+  {
+    "cityId": "hcm",
+    "code": "27190",
+    "name": "Vườn Lài",
+    "fullName": "Phường Vườn Lài",
+    "lat": 10.768873,
+    "lon": 106.672255
+  },
+  {
+    "cityId": "hcm",
+    "code": "27211",
+    "name": "Hòa Bình",
+    "fullName": "Phường Hòa Bình",
+    "lat": 10.7703,
+    "lon": 106.645032
+  },
+  {
+    "cityId": "hcm",
+    "code": "27226",
+    "name": "Phú Thọ",
+    "fullName": "Phường Phú Thọ",
+    "lat": 10.768584,
+    "lon": 106.655046
+  },
+  {
+    "cityId": "hcm",
+    "code": "27232",
+    "name": "Bình Thới",
+    "fullName": "Phường Bình Thới",
+    "lat": 10.763731,
+    "lon": 106.642555
+  },
+  {
+    "cityId": "hcm",
+    "code": "27238",
+    "name": "Minh Phụng",
+    "fullName": "Phường Minh Phụng",
+    "lat": 10.758622,
+    "lon": 106.655902
+  },
+  {
+    "cityId": "hcm",
+    "code": "27259",
+    "name": "Xóm Chiếu",
+    "fullName": "Phường Xóm Chiếu",
+    "lat": 10.760886,
+    "lon": 106.712761
+  },
+  {
+    "cityId": "hcm",
+    "code": "27265",
+    "name": "Khánh Hội",
+    "fullName": "Phường Khánh Hội",
+    "lat": 10.75887,
+    "lon": 106.705074
+  },
+  {
+    "cityId": "hcm",
+    "code": "27286",
+    "name": "Vĩnh Hội",
+    "fullName": "Phường Vĩnh Hội",
+    "lat": 10.756782,
+    "lon": 106.69567
+  },
+  {
+    "cityId": "hcm",
+    "code": "27301",
+    "name": "Chợ Quán",
+    "fullName": "Phường Chợ Quán",
+    "lat": 10.758242,
+    "lon": 106.68009
+  },
+  {
+    "cityId": "hcm",
+    "code": "27316",
+    "name": "An Đông",
+    "fullName": "Phường An Đông",
+    "lat": 10.754967,
+    "lon": 106.671544
+  },
+  {
+    "cityId": "hcm",
+    "code": "27343",
+    "name": "Chợ Lớn",
+    "fullName": "Phường Chợ Lớn",
+    "lat": 10.752644,
+    "lon": 106.658683
+  },
+  {
+    "cityId": "hcm",
+    "code": "27349",
+    "name": "Phú Lâm",
+    "fullName": "Phường Phú Lâm",
+    "lat": 10.753535,
+    "lon": 106.630743
+  },
+  {
+    "cityId": "hcm",
+    "code": "27364",
+    "name": "Bình Phú",
+    "fullName": "Phường Bình Phú",
+    "lat": 10.73792,
+    "lon": 106.628041
+  },
+  {
+    "cityId": "hcm",
+    "code": "27367",
+    "name": "Bình Tây",
+    "fullName": "Phường Bình Tây",
+    "lat": 10.750547,
+    "lon": 106.646237
+  },
+  {
+    "cityId": "hcm",
+    "code": "27373",
+    "name": "Bình Tiên",
+    "fullName": "Phường Bình Tiên",
+    "lat": 10.741086,
+    "lon": 106.64043
+  },
+  {
+    "cityId": "hcm",
+    "code": "27418",
+    "name": "Chánh Hưng",
+    "fullName": "Phường Chánh Hưng",
+    "lat": 10.742314,
+    "lon": 106.676704
+  },
+  {
+    "cityId": "hcm",
+    "code": "27424",
+    "name": "Bình Đông",
+    "fullName": "Phường Bình Đông",
+    "lat": 10.716567,
+    "lon": 106.633847
+  },
+  {
+    "cityId": "hcm",
+    "code": "27427",
+    "name": "Phú Định",
+    "fullName": "Phường Phú Định",
+    "lat": 10.727924,
+    "lon": 106.629863
+  },
+  {
+    "cityId": "hcm",
+    "code": "27439",
+    "name": "Bình Hưng Hòa",
+    "fullName": "Phường Bình Hưng Hòa",
+    "lat": 10.801276,
+    "lon": 106.60447
+  },
+  {
+    "cityId": "hcm",
+    "code": "27442",
+    "name": "Bình Tân",
+    "fullName": "Phường Bình Tân",
+    "lat": 10.79197,
+    "lon": 106.59021
+  },
+  {
+    "cityId": "hcm",
+    "code": "27448",
+    "name": "Bình Trị Đông",
+    "fullName": "Phường Bình Trị Đông",
+    "lat": 10.768473,
+    "lon": 106.606889
+  },
+  {
+    "cityId": "hcm",
+    "code": "27457",
+    "name": "Tân Tạo",
+    "fullName": "Phường Tân Tạo",
+    "lat": 10.743631,
+    "lon": 106.578296
+  },
+  {
+    "cityId": "hcm",
+    "code": "27460",
+    "name": "An Lạc",
+    "fullName": "Phường An Lạc",
+    "lat": 10.734578,
+    "lon": 106.611954
+  },
+  {
+    "cityId": "hcm",
+    "code": "27475",
+    "name": "Tân Hưng",
+    "fullName": "Phường Tân Hưng",
+    "lat": 10.735669,
+    "lon": 106.704237
+  },
+  {
+    "cityId": "hcm",
+    "code": "27478",
+    "name": "Tân Thuận",
+    "fullName": "Phường Tân Thuận",
+    "lat": 10.757828,
+    "lon": 106.735825
+  },
+  {
+    "cityId": "hcm",
+    "code": "27484",
+    "name": "Phú Thuận",
+    "fullName": "Phường Phú Thuận",
+    "lat": 10.724655,
+    "lon": 106.745165
+  },
+  {
+    "cityId": "hcm",
+    "code": "27487",
+    "name": "Tân Mỹ",
+    "fullName": "Phường Tân Mỹ",
+    "lat": 10.717921,
+    "lon": 106.730576
+  },
+  {
+    "cityId": "hcm",
+    "code": "27496",
+    "name": "Tân An Hội",
+    "fullName": "Xã Tân An Hội",
+    "lat": 10.970347,
+    "lon": 106.465119
+  },
+  {
+    "cityId": "hcm",
+    "code": "27508",
+    "name": "An Nhơn Tây",
+    "fullName": "Xã An Nhơn Tây",
+    "lat": 11.101845,
+    "lon": 106.481411
+  },
+  {
+    "cityId": "hcm",
+    "code": "27511",
+    "name": "Nhuận Đức",
+    "fullName": "Xã Nhuận Đức",
+    "lat": 11.030687,
+    "lon": 106.498588
+  },
+  {
+    "cityId": "hcm",
+    "code": "27526",
+    "name": "Thái Mỹ",
+    "fullName": "Xã Thái Mỹ",
+    "lat": 11.036437,
+    "lon": 106.434588
+  },
+  {
+    "cityId": "hcm",
+    "code": "27541",
+    "name": "Phú Hòa Đông",
+    "fullName": "Xã Phú Hòa Đông",
+    "lat": 10.988784,
+    "lon": 106.556192
+  },
+  {
+    "cityId": "hcm",
+    "code": "27544",
+    "name": "Bình Mỹ",
+    "fullName": "Xã Bình Mỹ",
+    "lat": 10.980093,
+    "lon": 106.610109
+  },
+  {
+    "cityId": "hcm",
+    "code": "27553",
+    "name": "Củ Chi",
+    "fullName": "Xã Củ Chi",
+    "lat": 10.961606,
+    "lon": 106.533525
+  },
+  {
+    "cityId": "hcm",
+    "code": "27559",
+    "name": "Hóc Môn",
+    "fullName": "Xã Hóc Môn",
+    "lat": 10.896144,
+    "lon": 106.591481
+  },
+  {
+    "cityId": "hcm",
+    "code": "27568",
+    "name": "Đông Thạnh",
+    "fullName": "Xã Đông Thạnh",
+    "lat": 10.896653,
+    "lon": 106.635508
+  },
+  {
+    "cityId": "hcm",
+    "code": "27577",
+    "name": "Xuân Thới Sơn",
+    "fullName": "Xã Xuân Thới Sơn",
+    "lat": 10.888222,
+    "lon": 106.556881
+  },
+  {
+    "cityId": "hcm",
+    "code": "27592",
+    "name": "Bà Điểm",
+    "fullName": "Xã Bà Điểm",
+    "lat": 10.851617,
+    "lon": 106.569662
+  },
+  {
+    "cityId": "hcm",
+    "code": "27595",
+    "name": "Tân Nhựt",
+    "fullName": "Xã Tân Nhựt",
+    "lat": 10.707889,
+    "lon": 106.567518
+  },
+  {
+    "cityId": "hcm",
+    "code": "27601",
+    "name": "Vĩnh Lộc",
+    "fullName": "Xã Vĩnh Lộc",
+    "lat": 10.83786,
+    "lon": 106.546989
+  },
+  {
+    "cityId": "hcm",
+    "code": "27604",
+    "name": "Tân Vĩnh Lộc",
+    "fullName": "Xã Tân Vĩnh Lộc",
+    "lat": 10.798841,
+    "lon": 106.545027
+  },
+  {
+    "cityId": "hcm",
+    "code": "27610",
+    "name": "Bình Lợi",
+    "fullName": "Xã Bình Lợi",
+    "lat": 10.75228,
+    "lon": 106.515328
+  },
+  {
+    "cityId": "hcm",
+    "code": "27619",
+    "name": "Bình Hưng",
+    "fullName": "Xã Bình Hưng",
+    "lat": 10.705082,
+    "lon": 106.652389
+  },
+  {
+    "cityId": "hcm",
+    "code": "27628",
+    "name": "Hưng Long",
+    "fullName": "Xã Hưng Long",
+    "lat": 10.659295,
+    "lon": 106.645536
+  },
+  {
+    "cityId": "hcm",
+    "code": "27637",
+    "name": "Bình Chánh",
+    "fullName": "Xã Bình Chánh",
+    "lat": 10.672995,
+    "lon": 106.596279
+  },
+  {
+    "cityId": "hcm",
+    "code": "27655",
+    "name": "Nhà Bè",
+    "fullName": "Xã Nhà Bè",
+    "lat": 10.695207,
+    "lon": 106.714927
+  },
+  {
+    "cityId": "hcm",
+    "code": "27658",
+    "name": "Hiệp Phước",
+    "fullName": "Xã Hiệp Phước",
+    "lat": 10.634956,
+    "lon": 106.751174
+  },
+  {
+    "cityId": "hcm",
+    "code": "27664",
+    "name": "Cần Giờ",
+    "fullName": "Xã Cần Giờ",
+    "lat": 10.454346,
+    "lon": 106.900588
+  },
+  {
+    "cityId": "hcm",
+    "code": "27667",
+    "name": "Bình Khánh",
+    "fullName": "Xã Bình Khánh",
+    "lat": 10.595427,
+    "lon": 106.879151
+  },
+  {
+    "cityId": "hcm",
+    "code": "27673",
+    "name": "An Thới Đông",
+    "fullName": "Xã An Thới Đông",
+    "lat": 10.507211,
+    "lon": 106.806621
+  },
+  {
+    "cityId": "hcm",
+    "code": "27676",
+    "name": "Thạnh An",
+    "fullName": "Xã Thạnh An",
+    "lat": 10.538445,
+    "lon": 106.976619
+  }
+]

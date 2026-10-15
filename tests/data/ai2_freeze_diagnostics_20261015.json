@@ -1,0 +1,924 @@
+{
+  "kind": "diagnostic_suite_not_independent_benchmark",
+  "created": "2026-10-15",
+  "independent_gold_count": 0,
+  "expectations_frozen_before_inference": true,
+  "history_policy": "History is audit evidence only; production SLMInput consumes state and previous_results, not raw history.",
+  "cases": [
+    {
+      "id": "sesame",
+      "message": "Mình bị dị ứng hạt mè, nhờ bạn lưu đúng loại hạt này.",
+      "expected_update": {
+        "add_hard_constraints": {
+          "allergens_excluded": [
+            "sesame"
+          ]
+        }
+      },
+      "expected_state": {
+        "session_id": "adapter-regression",
+        "hard_constraints": {
+          "allergens_excluded": [
+            "sesame"
+          ]
+        }
+      },
+      "category": "allergy",
+      "origin": "existing_7_diagnostic_probes",
+      "label_status": "authored_regression_expectation_not_independent_gold",
+      "source": "tests/data/ai2_adapter_regressions.json",
+      "family_id": "diagnostic-allergy",
+      "history": [],
+      "expected_raw_update": {
+        "add_hard_constraints": {
+          "allergens_excluded": [
+            "sesame"
+          ]
+        }
+      }
+    },
+    {
+      "id": "milk-peanut",
+      "message": "Mình dị ứng sữa và đậu phộng, ghi nhận cả hai giúp mình.",
+      "expected_update": {
+        "add_hard_constraints": {
+          "allergens_excluded": [
+            "milk",
+            "peanut"
+          ]
+        }
+      },
+      "expected_state": {
+        "session_id": "adapter-regression",
+        "hard_constraints": {
+          "allergens_excluded": [
+            "milk",
+            "peanut"
+          ]
+        }
+      },
+      "category": "allergy",
+      "origin": "existing_7_diagnostic_probes",
+      "label_status": "authored_regression_expectation_not_independent_gold",
+      "source": "tests/data/ai2_adapter_regressions.json",
+      "family_id": "diagnostic-allergy",
+      "history": [],
+      "expected_raw_update": {
+        "add_hard_constraints": {
+          "allergens_excluded": [
+            "milk",
+            "peanut"
+          ]
+        }
+      }
+    },
+    {
+      "id": "wifi-preserve-allergy",
+      "message": "Chỉ bỏ yêu cầu wifi giúp mình, các điều kiện dị ứng đã xác nhận giữ nguyên.",
+      "current_state": {
+        "session_id": "adapter-regression",
+        "hard_constraints": {
+          "allergens_excluded": [
+            "milk",
+            "peanut"
+          ]
+        },
+        "soft_preferences": {
+          "wifi": true
+        }
+      },
+      "expected_update": {
+        "remove_preferences": [
+          "soft_preferences.wifi"
+        ]
+      },
+      "expected_state": {
+        "session_id": "adapter-regression",
+        "hard_constraints": {
+          "allergens_excluded": [
+            "milk",
+            "peanut"
+          ]
+        }
+      },
+      "category": "allergy_retention",
+      "origin": "existing_7_diagnostic_probes",
+      "label_status": "authored_regression_expectation_not_independent_gold",
+      "source": "tests/data/ai2_adapter_regressions.json",
+      "family_id": "diagnostic-allergy_retention",
+      "history": [],
+      "expected_raw_update": {
+        "remove_preferences": [
+          "soft_preferences.wifi"
+        ]
+      }
+    },
+    {
+      "id": "travel-15",
+      "message": "Thời gian di chuyển không quá 15 phút, nhớ giới hạn này nhé.",
+      "expected_update": {
+        "add_hard_constraints": {
+          "max_travel_time_min": 15
+        }
+      },
+      "expected_state": {
+        "session_id": "adapter-regression",
+        "hard_constraints": {
+          "max_travel_time_min": 15
+        }
+      },
+      "category": "travel_time",
+      "origin": "existing_7_diagnostic_probes",
+      "label_status": "authored_regression_expectation_not_independent_gold",
+      "source": "tests/data/ai2_adapter_regressions.json",
+      "family_id": "diagnostic-travel_time",
+      "history": [],
+      "expected_raw_update": {
+        "add_hard_constraints": {
+          "max_travel_time_min": 15
+        }
+      }
+    },
+    {
+      "id": "feedback-cheaper",
+      "message": "Quán số 2 rẻ hơn nhé.",
+      "current_state": {
+        "session_id": "adapter-regression",
+        "hard_constraints": {
+          "budget_max": 90000
+        }
+      },
+      "previous_results": [
+        {
+          "rank": 2,
+          "restaurant_id": "probe-r2",
+          "menu_item_id": "probe-m2"
+        }
+      ],
+      "expected_update": {
+        "relative_updates": {
+          "budget": "decrease"
+        },
+        "references": [
+          {
+            "status": "resolved",
+            "rank": 2,
+            "restaurant_id": "probe-r2",
+            "menu_item_id": "probe-m2",
+            "mention": "quán số 2"
+          }
+        ]
+      },
+      "expected_state": {
+        "session_id": "adapter-regression",
+        "hard_constraints": {
+          "budget_max": 90000
+        },
+        "reference_restaurants": [
+          {
+            "status": "resolved",
+            "rank": 2,
+            "restaurant_id": "probe-r2",
+            "menu_item_id": "probe-m2",
+            "mention": "quán số 2"
+          }
+        ]
+      },
+      "category": "feedback",
+      "origin": "existing_7_diagnostic_probes",
+      "label_status": "authored_regression_expectation_not_independent_gold",
+      "source": "tests/data/ai2_adapter_regressions.json",
+      "family_id": "diagnostic-feedback",
+      "history": [],
+      "expected_raw_update": {
+        "relative_updates": {
+          "budget": "decrease"
+        },
+        "references": [
+          {
+            "rank": 2,
+            "mention": "quán số 2"
+          }
+        ]
+      }
+    },
+    {
+      "id": "context",
+      "message": "Đi với đồng nghiệp, nhóm 3 người vào bữa trưa.",
+      "expected_update": {
+        "context_updates": {
+          "companions": [
+            "colleagues"
+          ],
+          "party_size": 3,
+          "meal_time": "lunch"
+        }
+      },
+      "expected_state": {
+        "session_id": "adapter-regression",
+        "context": {
+          "companions": [
+            "colleagues"
+          ],
+          "party_size": 3,
+          "meal_time": "lunch"
+        }
+      },
+      "category": "context",
+      "origin": "existing_7_diagnostic_probes",
+      "label_status": "authored_regression_expectation_not_independent_gold",
+      "source": "tests/data/ai2_adapter_regressions.json",
+      "family_id": "diagnostic-context",
+      "history": [],
+      "expected_raw_update": {
+        "context_updates": {
+          "companions": [
+            "colleagues"
+          ],
+          "party_size": 3,
+          "meal_time": "lunch"
+        }
+      }
+    },
+    {
+      "id": "unresolved-reference",
+      "message": "Quán đó nhé.",
+      "expected_update": {
+        "references": [
+          {
+            "status": "unresolved",
+            "mention": "quán đó"
+          }
+        ]
+      },
+      "expected_state": {
+        "session_id": "adapter-regression",
+        "reference_restaurants": [
+          {
+            "status": "unresolved",
+            "mention": "quán đó"
+          }
+        ]
+      },
+      "category": "reference",
+      "origin": "existing_7_diagnostic_probes",
+      "label_status": "authored_regression_expectation_not_independent_gold",
+      "source": "tests/data/ai2_adapter_regressions.json",
+      "family_id": "diagnostic-reference",
+      "history": [],
+      "expected_raw_update": {
+        "references": [
+          {
+            "mention": "quán đó"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sesame-negated",
+      "category": "allergy",
+      "message": "Không bị dị ứng mè.",
+      "current_state": null,
+      "previous_results": [],
+      "history": [],
+      "expected_raw_update": {},
+      "expected_update": {},
+      "expected_state": {
+        "session_id": "adapter-regression"
+      },
+      "origin": "authored_before_model_run_20261015",
+      "family_id": "diagnostic-allergy",
+      "label_status": "authored_regression_expectation_not_independent_gold",
+      "source": "scripts/build_ai2_freeze_suite.py"
+    },
+    {
+      "id": "mixed-allergy-negation",
+      "category": "allergy",
+      "message": "Tôi không dị ứng mè nhưng bị dị ứng sữa.",
+      "current_state": null,
+      "previous_results": [],
+      "history": [],
+      "expected_raw_update": {
+        "add_hard_constraints": {
+          "allergens_excluded": [
+            "milk"
+          ]
+        }
+      },
+      "expected_update": {
+        "add_hard_constraints": {
+          "allergens_excluded": [
+            "milk"
+          ]
+        }
+      },
+      "expected_state": {
+        "session_id": "adapter-regression",
+        "hard_constraints": {
+          "allergens_excluded": [
+            "milk"
+          ]
+        }
+      },
+      "origin": "authored_before_model_run_20261015",
+      "family_id": "diagnostic-allergy",
+      "label_status": "authored_regression_expectation_not_independent_gold",
+      "source": "scripts/build_ai2_freeze_suite.py"
+    },
+    {
+      "id": "triple-allergy",
+      "category": "allergy",
+      "message": "Mình bị dị ứng mè, sữa và đậu phộng.",
+      "current_state": null,
+      "previous_results": [],
+      "history": [],
+      "expected_raw_update": {
+        "add_hard_constraints": {
+          "allergens_excluded": [
+            "sesame",
+            "milk",
+            "peanut"
+          ]
+        }
+      },
+      "expected_update": {
+        "add_hard_constraints": {
+          "allergens_excluded": [
+            "sesame",
+            "milk",
+            "peanut"
+          ]
+        }
+      },
+      "expected_state": {
+        "session_id": "adapter-regression",
+        "hard_constraints": {
+          "allergens_excluded": [
+            "sesame",
+            "milk",
+            "peanut"
+          ]
+        }
+      },
+      "origin": "authored_before_model_run_20261015",
+      "family_id": "diagnostic-allergy",
+      "label_status": "authored_regression_expectation_not_independent_gold",
+      "source": "scripts/build_ai2_freeze_suite.py"
+    },
+    {
+      "id": "wifi-only-no-allergy-cue",
+      "category": "allergy_retention",
+      "message": "Bỏ yêu cầu wifi, chỉ cập nhật mục đó.",
+      "current_state": {
+        "session_id": "adapter-regression",
+        "hard_constraints": {
+          "allergens_excluded": [
+            "milk",
+            "peanut"
+          ]
+        },
+        "soft_preferences": {
+          "wifi": true
+        }
+      },
+      "previous_results": [],
+      "history": [
+        "Mình dị ứng sữa và đậu phộng.",
+        "Ưu tiên wifi."
+      ],
+      "expected_raw_update": {
+        "remove_preferences": [
+          "soft_preferences.wifi"
+        ]
+      },
+      "expected_update": {
+        "remove_preferences": [
+          "soft_preferences.wifi"
+        ]
+      },
+      "expected_state": {
+        "session_id": "adapter-regression",
+        "hard_constraints": {
+          "allergens_excluded": [
+            "milk",
+            "peanut"
+          ]
+        }
+      },
+      "origin": "authored_before_model_run_20261015",
+      "family_id": "diagnostic-allergy_retention",
+      "label_status": "authored_regression_expectation_not_independent_gold",
+      "source": "scripts/build_ai2_freeze_suite.py"
+    },
+    {
+      "id": "allergy-accumulation",
+      "category": "allergy_retention",
+      "message": "Mình bị dị ứng sữa.",
+      "current_state": {
+        "session_id": "adapter-regression",
+        "hard_constraints": {
+          "allergens_excluded": [
+            "sesame"
+          ],
+          "max_distance_km": 2
+        }
+      },
+      "previous_results": [],
+      "history": [
+        "Mình dị ứng hạt mè.",
+        "Trong vòng 2km."
+      ],
+      "expected_raw_update": {
+        "add_hard_constraints": {
+          "allergens_excluded": [
+            "milk"
+          ]
+        }
+      },
+      "expected_update": {
+        "add_hard_constraints": {
+          "allergens_excluded": [
+            "milk"
+          ]
+        }
+      },
+      "expected_state": {
+        "session_id": "adapter-regression",
+        "hard_constraints": {
+          "allergens_excluded": [
+            "sesame",
+            "milk"
+          ],
+          "max_distance_km": 2
+        }
+      },
+      "origin": "authored_before_model_run_20261015",
+      "family_id": "diagnostic-allergy_retention",
+      "label_status": "authored_regression_expectation_not_independent_gold",
+      "source": "scripts/build_ai2_freeze_suite.py"
+    },
+    {
+      "id": "context-correction",
+      "category": "context",
+      "message": "Tối nay, à thực ra trưa mai.",
+      "current_state": {
+        "session_id": "adapter-regression",
+        "context": {
+          "meal_time": "dinner",
+          "party_size": 3
+        }
+      },
+      "previous_results": [],
+      "history": [
+        "Nhóm 3 người, tối nay."
+      ],
+      "expected_raw_update": {
+        "context_updates": {
+          "meal_time": "lunch"
+        }
+      },
+      "expected_update": {
+        "context_updates": {
+          "meal_time": "lunch"
+        }
+      },
+      "expected_state": {
+        "session_id": "adapter-regression",
+        "context": {
+          "meal_time": "lunch",
+          "party_size": 3
+        }
+      },
+      "origin": "authored_before_model_run_20261015",
+      "family_id": "diagnostic-context",
+      "label_status": "authored_regression_expectation_not_independent_gold",
+      "source": "scripts/build_ai2_freeze_suite.py"
+    },
+    {
+      "id": "negative-reference",
+      "category": "reference",
+      "message": "Quán số 2 không hợp khẩu vị mình.",
+      "current_state": {
+        "session_id": "adapter-regression",
+        "food": [
+          "sushi"
+        ]
+      },
+      "previous_results": [
+        {
+          "rank": 1,
+          "restaurant_id": "eval-r1",
+          "menu_item_id": "eval-m1"
+        },
+        {
+          "rank": 2,
+          "restaurant_id": "eval-r2",
+          "menu_item_id": "eval-m2"
+        }
+      ],
+      "history": [],
+      "expected_raw_update": {
+        "references": [
+          {
+            "rank": 2,
+            "mention": "quán số 2",
+            "sentiment": "negative"
+          }
+        ]
+      },
+      "expected_update": {
+        "references": [
+          {
+            "status": "resolved",
+            "rank": 2,
+            "restaurant_id": "eval-r2",
+            "menu_item_id": "eval-m2",
+            "mention": "quán số 2",
+            "sentiment": "negative"
+          }
+        ]
+      },
+      "expected_state": {
+        "session_id": "adapter-regression",
+        "food": [
+          "sushi"
+        ],
+        "reference_restaurants": [
+          {
+            "status": "resolved",
+            "rank": 2,
+            "restaurant_id": "eval-r2",
+            "menu_item_id": "eval-m2",
+            "mention": "quán số 2",
+            "sentiment": "negative"
+          }
+        ]
+      },
+      "origin": "authored_before_model_run_20261015",
+      "family_id": "diagnostic-reference",
+      "label_status": "authored_regression_expectation_not_independent_gold",
+      "source": "scripts/build_ai2_freeze_suite.py"
+    },
+    {
+      "id": "ordinal-selection",
+      "category": "reference",
+      "message": "Chọn quán số 2.",
+      "current_state": null,
+      "previous_results": [
+        {
+          "rank": 1,
+          "restaurant_id": "eval-r1",
+          "menu_item_id": "eval-m1"
+        },
+        {
+          "rank": 2,
+          "restaurant_id": "eval-r2",
+          "menu_item_id": "eval-m2"
+        }
+      ],
+      "history": [],
+      "expected_raw_update": {
+        "references": [
+          {
+            "rank": 2,
+            "mention": "quán số 2"
+          }
+        ]
+      },
+      "expected_update": {
+        "references": [
+          {
+            "status": "resolved",
+            "rank": 2,
+            "restaurant_id": "eval-r2",
+            "menu_item_id": "eval-m2",
+            "mention": "quán số 2"
+          }
+        ]
+      },
+      "expected_state": {
+        "session_id": "adapter-regression",
+        "reference_restaurants": [
+          {
+            "status": "resolved",
+            "rank": 2,
+            "restaurant_id": "eval-r2",
+            "menu_item_id": "eval-m2",
+            "mention": "quán số 2"
+          }
+        ]
+      },
+      "origin": "authored_before_model_run_20261015",
+      "family_id": "diagnostic-reference",
+      "label_status": "authored_regression_expectation_not_independent_gold",
+      "source": "scripts/build_ai2_freeze_suite.py"
+    },
+    {
+      "id": "missing-rank",
+      "category": "reference",
+      "message": "Quán số 3 nhé.",
+      "current_state": null,
+      "previous_results": [
+        {
+          "rank": 1,
+          "restaurant_id": "eval-r1",
+          "menu_item_id": "eval-m1"
+        },
+        {
+          "rank": 2,
+          "restaurant_id": "eval-r2",
+          "menu_item_id": "eval-m2"
+        }
+      ],
+      "history": [],
+      "expected_raw_update": {
+        "references": [
+          {
+            "rank": 3,
+            "mention": "quán số 3"
+          }
+        ]
+      },
+      "expected_update": {
+        "references": [
+          {
+            "status": "unresolved",
+            "mention": "quán số 3"
+          }
+        ]
+      },
+      "expected_state": {
+        "session_id": "adapter-regression",
+        "reference_restaurants": [
+          {
+            "status": "unresolved",
+            "mention": "quán số 3"
+          }
+        ]
+      },
+      "origin": "authored_before_model_run_20261015",
+      "family_id": "diagnostic-reference",
+      "label_status": "authored_regression_expectation_not_independent_gold",
+      "source": "scripts/build_ai2_freeze_suite.py"
+    },
+    {
+      "id": "travel-english",
+      "category": "travel_time",
+      "message": "At most 15 minutes by motorbike.",
+      "current_state": null,
+      "previous_results": [],
+      "history": [],
+      "expected_raw_update": {
+        "add_hard_constraints": {
+          "max_travel_time_min": 15
+        },
+        "context_updates": {
+          "transport_mode": "motorbike"
+        }
+      },
+      "expected_update": {
+        "add_hard_constraints": {
+          "max_travel_time_min": 15
+        },
+        "context_updates": {
+          "transport_mode": "motorbike"
+        }
+      },
+      "expected_state": {
+        "session_id": "adapter-regression",
+        "hard_constraints": {
+          "max_travel_time_min": 15
+        },
+        "context": {
+          "transport_mode": "motorbike"
+        }
+      },
+      "origin": "authored_before_model_run_20261015",
+      "family_id": "diagnostic-travel_time",
+      "label_status": "authored_regression_expectation_not_independent_gold",
+      "source": "scripts/build_ai2_freeze_suite.py"
+    },
+    {
+      "id": "travel-correction",
+      "category": "travel_time",
+      "message": "Thời gian di chuyển tối đa 15 phút.",
+      "current_state": {
+        "session_id": "adapter-regression",
+        "hard_constraints": {
+          "max_travel_time_min": 30,
+          "max_distance_km": 2
+        },
+        "context": {
+          "transport_mode": "motorbike"
+        }
+      },
+      "previous_results": [],
+      "history": [],
+      "expected_raw_update": {
+        "add_hard_constraints": {
+          "max_travel_time_min": 15
+        }
+      },
+      "expected_update": {
+        "add_hard_constraints": {
+          "max_travel_time_min": 15
+        }
+      },
+      "expected_state": {
+        "session_id": "adapter-regression",
+        "hard_constraints": {
+          "max_travel_time_min": 15,
+          "max_distance_km": 2
+        },
+        "context": {
+          "transport_mode": "motorbike"
+        }
+      },
+      "origin": "authored_before_model_run_20261015",
+      "family_id": "diagnostic-travel_time",
+      "label_status": "authored_regression_expectation_not_independent_gold",
+      "source": "scripts/build_ai2_freeze_suite.py"
+    },
+    {
+      "id": "travel-removal",
+      "category": "travel_time",
+      "message": "Không cần giới hạn 15 phút nữa.",
+      "current_state": {
+        "session_id": "adapter-regression",
+        "hard_constraints": {
+          "max_travel_time_min": 15
+        }
+      },
+      "previous_results": [],
+      "history": [],
+      "expected_raw_update": {
+        "remove_preferences": [
+          "hard_constraints.max_travel_time_min"
+        ]
+      },
+      "expected_update": {
+        "remove_preferences": [
+          "hard_constraints.max_travel_time_min"
+        ]
+      },
+      "expected_state": {
+        "session_id": "adapter-regression"
+      },
+      "origin": "authored_before_model_run_20261015",
+      "family_id": "diagnostic-travel_time",
+      "label_status": "authored_regression_expectation_not_independent_gold",
+      "source": "scripts/build_ai2_freeze_suite.py"
+    },
+    {
+      "id": "facilities-hard-soft",
+      "category": "hard_constraint",
+      "message": "Phải có máy lạnh, ưu tiên wifi.",
+      "current_state": null,
+      "previous_results": [],
+      "history": [],
+      "expected_raw_update": {
+        "add_hard_constraints": {
+          "air_conditioning": true
+        },
+        "add_soft_preferences": {
+          "wifi": true
+        }
+      },
+      "expected_update": {
+        "add_hard_constraints": {
+          "air_conditioning": true
+        },
+        "add_soft_preferences": {
+          "wifi": true
+        }
+      },
+      "expected_state": {
+        "session_id": "adapter-regression",
+        "hard_constraints": {
+          "air_conditioning": true
+        },
+        "soft_preferences": {
+          "wifi": true
+        }
+      },
+      "origin": "authored_before_model_run_20261015",
+      "family_id": "diagnostic-hard_constraint",
+      "label_status": "authored_regression_expectation_not_independent_gold",
+      "source": "scripts/build_ai2_freeze_suite.py"
+    },
+    {
+      "id": "relative-budget-preserve",
+      "category": "feedback",
+      "message": "Rẻ hơn đi.",
+      "current_state": {
+        "session_id": "adapter-regression",
+        "hard_constraints": {
+          "budget_max": 90000
+        }
+      },
+      "previous_results": [],
+      "history": [
+        "Ngân sách dưới 90k."
+      ],
+      "expected_raw_update": {
+        "relative_updates": {
+          "budget": "decrease"
+        }
+      },
+      "expected_update": {
+        "relative_updates": {
+          "budget": "decrease"
+        }
+      },
+      "expected_state": {
+        "session_id": "adapter-regression",
+        "hard_constraints": {
+          "budget_max": 90000
+        }
+      },
+      "origin": "authored_before_model_run_20261015",
+      "family_id": "diagnostic-feedback",
+      "label_status": "authored_regression_expectation_not_independent_gold",
+      "source": "scripts/build_ai2_freeze_suite.py"
+    },
+    {
+      "id": "vegetarian-hotpot",
+      "category": "food_trace",
+      "message": "Tôi muốn tìm lẩu chay.",
+      "current_state": null,
+      "previous_results": [],
+      "history": [],
+      "family_id": "candidate-food_trace",
+      "origin": "authored_unreviewed_candidate_20261015",
+      "source": "scripts/build_ai2_freeze_suite.py",
+      "label_status": "needs_human_review",
+      "expected_update": null,
+      "expected_raw_update": null,
+      "expected_state": null
+    },
+    {
+      "id": "vegetarian-hotpot-retention",
+      "category": "food_trace",
+      "message": "Đổi món thành lẩu chay, vẫn giữ điều kiện ăn chay.",
+      "current_state": {
+        "session_id": "adapter-regression",
+        "food": [
+          "ramen"
+        ],
+        "hard_constraints": {
+          "vegetarian": true
+        }
+      },
+      "previous_results": [],
+      "history": [],
+      "family_id": "candidate-food_trace",
+      "origin": "authored_unreviewed_candidate_20261015",
+      "source": "scripts/build_ai2_freeze_suite.py",
+      "label_status": "needs_human_review",
+      "expected_update": null,
+      "expected_raw_update": null,
+      "expected_state": null
+    },
+    {
+      "id": "unknown-allergen-cashew",
+      "category": "allergy",
+      "message": "Mình bị dị ứng hạt điều.",
+      "current_state": null,
+      "previous_results": [],
+      "history": [],
+      "family_id": "candidate-allergy",
+      "origin": "authored_unreviewed_candidate_20261015",
+      "source": "scripts/build_ai2_freeze_suite.py",
+      "label_status": "needs_human_review",
+      "expected_update": null,
+      "expected_raw_update": null,
+      "expected_state": null
+    },
+    {
+      "id": "similar-reference-pronoun",
+      "category": "reference",
+      "message": "Quán số 2 ổn, tìm giống quán đó nhưng gần hơn.",
+      "current_state": null,
+      "previous_results": [
+        {
+          "rank": 1,
+          "restaurant_id": "eval-r1",
+          "menu_item_id": "eval-m1"
+        },
+        {
+          "rank": 2,
+          "restaurant_id": "eval-r2",
+          "menu_item_id": "eval-m2"
+        }
+      ],
+      "history": [],
+      "family_id": "candidate-reference",
+      "origin": "authored_unreviewed_candidate_20261015",
+      "source": "scripts/build_ai2_freeze_suite.py",
+      "label_status": "needs_human_review",
+      "expected_update": null,
+      "expected_raw_update": null,
+      "expected_state": null
+    }
+  ]
+}

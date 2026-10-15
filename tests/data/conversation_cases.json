@@ -1,0 +1,1163 @@
+[
+  {
+    "id": "food-ramen",
+    "group": "food",
+    "message": "Tôi muốn ramen",
+    "expected": {
+      "set_values": {
+        "food": [
+          "ramen"
+        ]
+      }
+    }
+  },
+  {
+    "id": "food-pho",
+    "group": "food",
+    "message": "Tìm phở",
+    "expected": {
+      "set_values": {
+        "food": [
+          "phở"
+        ]
+      }
+    }
+  },
+  {
+    "id": "food-bun-bo",
+    "group": "food",
+    "message": "Ăn bún bò",
+    "expected": {
+      "set_values": {
+        "food": [
+          "bún bò"
+        ]
+      }
+    }
+  },
+  {
+    "id": "food-com-ga",
+    "group": "food",
+    "message": "cơm gà",
+    "expected": {
+      "set_values": {
+        "food": [
+          "cơm gà"
+        ]
+      }
+    }
+  },
+  {
+    "id": "food-pizza",
+    "group": "food",
+    "message": "PIZZA",
+    "expected": {
+      "set_values": {
+        "food": [
+          "pizza"
+        ]
+      }
+    }
+  },
+  {
+    "id": "food-sushi",
+    "group": "food",
+    "message": "sushi và ramen, sushi",
+    "expected": {
+      "set_values": {
+        "food": [
+          "sushi",
+          "ramen"
+        ]
+      }
+    }
+  },
+  {
+    "id": "budget-k",
+    "group": "budget",
+    "message": "dưới 150k",
+    "expected": {
+      "add_hard_constraints": {
+        "budget_max": 150000
+      }
+    }
+  },
+  {
+    "id": "budget-nghin",
+    "group": "budget",
+    "message": "dưới 150 nghìn",
+    "expected": {
+      "add_hard_constraints": {
+        "budget_max": 150000
+      }
+    }
+  },
+  {
+    "id": "budget-max",
+    "group": "budget",
+    "message": "tối đa 100k",
+    "expected": {
+      "add_hard_constraints": {
+        "budget_max": 100000
+      }
+    }
+  },
+  {
+    "id": "budget-english",
+    "group": "budget",
+    "message": "budget 200k",
+    "expected": {
+      "add_hard_constraints": {
+        "budget_max": 200000
+      }
+    }
+  },
+  {
+    "id": "budget-vnd",
+    "group": "budget",
+    "message": "budget 200000 VND",
+    "expected": {
+      "add_hard_constraints": {
+        "budget_max": 200000
+      }
+    }
+  },
+  {
+    "id": "budget-decimal",
+    "group": "budget",
+    "message": "dưới 150,5k",
+    "expected": {
+      "add_hard_constraints": {
+        "budget_max": 150500
+      }
+    }
+  },
+  {
+    "id": "distance-in",
+    "group": "distance",
+    "message": "trong 2km",
+    "expected": {
+      "add_hard_constraints": {
+        "max_distance_km": 2
+      }
+    }
+  },
+  {
+    "id": "distance-under",
+    "group": "distance",
+    "message": "dưới 3 km",
+    "expected": {
+      "add_hard_constraints": {
+        "max_distance_km": 3
+      }
+    }
+  },
+  {
+    "id": "distance-radius",
+    "group": "distance",
+    "message": "bán kính 5km",
+    "expected": {
+      "add_hard_constraints": {
+        "max_distance_km": 5
+      }
+    }
+  },
+  {
+    "id": "distance-within",
+    "group": "distance",
+    "message": "trong vòng 2km",
+    "expected": {
+      "add_hard_constraints": {
+        "max_distance_km": 2
+      }
+    }
+  },
+  {
+    "id": "distance-decimal",
+    "group": "distance",
+    "message": "trong 1,5 km",
+    "expected": {
+      "add_hard_constraints": {
+        "max_distance_km": 1.5
+      }
+    }
+  },
+  {
+    "id": "vegetarian-eat",
+    "group": "vegetarian",
+    "message": "Tôi ăn chay",
+    "expected": {
+      "add_hard_constraints": {
+        "vegetarian": true
+      }
+    }
+  },
+  {
+    "id": "vegetarian-dish",
+    "group": "vegetarian",
+    "message": "Tìm món chay",
+    "expected": {
+      "add_hard_constraints": {
+        "vegetarian": true
+      }
+    }
+  },
+  {
+    "id": "spicy-eat",
+    "group": "negative preference",
+    "message": "Không ăn cay",
+    "expected": {
+      "add_negative_preferences": [
+        "spicy"
+      ]
+    }
+  },
+  {
+    "id": "spicy-please",
+    "group": "negative preference",
+    "message": "đừng cay",
+    "expected": {
+      "add_negative_preferences": [
+        "spicy"
+      ]
+    }
+  },
+  {
+    "id": "spicy-dislike",
+    "group": "negative preference",
+    "message": "không thích đồ cay",
+    "expected": {
+      "add_negative_preferences": [
+        "spicy"
+      ]
+    }
+  },
+  {
+    "id": "budget-less",
+    "group": "relative budget",
+    "message": "rẻ hơn",
+    "expected": {
+      "relative_updates": {
+        "budget": "decrease"
+      }
+    }
+  },
+  {
+    "id": "budget-lower",
+    "group": "relative budget",
+    "message": "giá thấp hơn",
+    "expected": {
+      "relative_updates": {
+        "budget": "decrease"
+      }
+    }
+  },
+  {
+    "id": "budget-more",
+    "group": "relative budget",
+    "message": "đắt hơn chút cũng được",
+    "expected": {
+      "relative_updates": {
+        "budget": "increase"
+      }
+    }
+  },
+  {
+    "id": "budget-extra",
+    "group": "relative budget",
+    "message": "Đắt thêm chút cũng được",
+    "expected": {
+      "relative_updates": {
+        "budget": "increase"
+      }
+    }
+  },
+  {
+    "id": "budget-mac",
+    "group": "relative budget",
+    "message": "mắc hơn cũng được",
+    "expected": {
+      "relative_updates": {
+        "budget": "increase"
+      }
+    }
+  },
+  {
+    "id": "distance-closer",
+    "group": "relative distance",
+    "message": "Xa quá, gần hơn đi",
+    "expected": {
+      "relative_updates": {
+        "distance": "decrease"
+      }
+    }
+  },
+  {
+    "id": "distance-bit-closer",
+    "group": "relative distance",
+    "message": "gần hơn chút",
+    "expected": {
+      "relative_updates": {
+        "distance": "decrease"
+      }
+    }
+  },
+  {
+    "id": "distance-further",
+    "group": "relative distance",
+    "message": "xa hơn cũng được",
+    "expected": {
+      "relative_updates": {
+        "distance": "increase"
+      }
+    }
+  },
+  {
+    "id": "distance-travel",
+    "group": "relative distance",
+    "message": "đi xa hơn cũng được",
+    "expected": {
+      "relative_updates": {
+        "distance": "increase"
+      }
+    }
+  },
+  {
+    "id": "combined-basic",
+    "group": "combined input",
+    "message": "Tìm ramen dưới 150k trong vòng 2km",
+    "expected": {
+      "set_values": {
+        "food": [
+          "ramen"
+        ]
+      },
+      "add_hard_constraints": {
+        "budget_max": 150000,
+        "max_distance_km": 2
+      }
+    }
+  },
+  {
+    "id": "combined-diet",
+    "group": "combined input",
+    "message": "món chay dưới 100k, không ăn cay",
+    "expected": {
+      "add_hard_constraints": {
+        "vegetarian": true,
+        "budget_max": 100000
+      },
+      "add_negative_preferences": [
+        "spicy"
+      ]
+    }
+  },
+  {
+    "id": "combined-relative",
+    "group": "combined input",
+    "message": "rẻ hơn và gần hơn",
+    "expected": {
+      "relative_updates": {
+        "budget": "decrease",
+        "distance": "decrease"
+      }
+    }
+  },
+  {
+    "id": "form-complement",
+    "group": "form + message",
+    "form": {
+      "budget_max": 150000
+    },
+    "message": "Tôi muốn ramen trong vòng 2km",
+    "expected": {
+      "set_values": {
+        "food": [
+          "ramen"
+        ]
+      },
+      "add_hard_constraints": {
+        "budget_max": 150000,
+        "max_distance_km": 2
+      }
+    }
+  },
+  {
+    "id": "form-conflict",
+    "group": "form + message",
+    "form": {
+      "budget_max": 150000,
+      "food": "phở",
+      "max_distance_km": 3
+    },
+    "message": "ramen budget 200k trong 5km",
+    "expected": {
+      "set_values": {
+        "food": [
+          "phở"
+        ]
+      },
+      "add_hard_constraints": {
+        "budget_max": 150000,
+        "max_distance_km": 3
+      }
+    }
+  },
+  {
+    "id": "form-relative",
+    "group": "form + message",
+    "form": {
+      "budget_max": 150000
+    },
+    "message": "rẻ hơn, gần hơn",
+    "expected": {
+      "add_hard_constraints": {
+        "budget_max": 150000
+      },
+      "relative_updates": {
+        "distance": "decrease"
+      }
+    }
+  },
+  {
+    "id": "form-only",
+    "group": "form + message",
+    "form": {
+      "cuisine": "japanese"
+    },
+    "message": null,
+    "expected": {
+      "set_values": {
+        "cuisine": [
+          "japanese"
+        ]
+      }
+    }
+  },
+  {
+    "id": "semantic-date",
+    "group": "semantic",
+    "message": "quán đẹp để đi date",
+    "expected": {
+      "add_semantic_preferences": [
+        "beautiful ambience"
+      ],
+      "context_updates": {
+        "occasion": "date"
+      }
+    }
+  },
+  {
+    "id": "semantic-chill",
+    "group": "semantic",
+    "message": "muốn chỗ chill",
+    "expected": {
+      "add_semantic_preferences": [
+        "relaxed ambience"
+      ]
+    }
+  },
+  {
+    "id": "semantic-talk",
+    "group": "semantic",
+    "message": "không gian phù hợp nói chuyện",
+    "expected": {
+      "add_semantic_preferences": [
+        "suitable for conversation"
+      ]
+    }
+  },
+  {
+    "id": "unknown",
+    "group": "unknown",
+    "message": "Bạn nghĩ sao về hôm nay?",
+    "expected": {}
+  },
+  {
+    "id": "empty",
+    "group": "unknown",
+    "message": "",
+    "expected": {}
+  },
+  {
+    "id": "whitespace",
+    "group": "unknown",
+    "message": "  \n  ",
+    "expected": {}
+  },
+  {
+    "id": "negated-vegetarian",
+    "group": "unknown",
+    "message": "không ăn chay",
+    "expected": {}
+  },
+  {
+    "id": "food-boundary",
+    "group": "unknown",
+    "message": "ramenhouse",
+    "expected": {}
+  },
+  {
+    "id": "negated-food",
+    "group": "unknown",
+    "message": "không muốn ăn sushi",
+    "expected": {}
+  },
+  {
+    "id": "unknown-money-unit",
+    "group": "unknown",
+    "message": "budget 200",
+    "expected": {}
+  },
+  {
+    "id": "budget-not-over",
+    "group": "budget",
+    "message": "không quá 150k",
+    "requires_llm": false,
+    "expected": {
+      "add_hard_constraints": {
+        "budget_max": 150000
+      }
+    }
+  },
+  {
+    "id": "budget-ngan",
+    "group": "budget",
+    "message": "tối đa 80 ngàn",
+    "requires_llm": false,
+    "expected": {
+      "add_hard_constraints": {
+        "budget_max": 80000
+      }
+    }
+  },
+  {
+    "id": "budget-zero",
+    "group": "budget",
+    "message": "budget 0k",
+    "requires_llm": false,
+    "expected": {
+      "add_hard_constraints": {
+        "budget_max": 0
+      }
+    }
+  },
+  {
+    "id": "budget-dong",
+    "group": "budget",
+    "message": "dưới 90000 đồng",
+    "requires_llm": false,
+    "expected": {
+      "add_hard_constraints": {
+        "budget_max": 90000
+      }
+    }
+  },
+  {
+    "id": "distance-not-over",
+    "group": "distance",
+    "message": "không quá 2 km",
+    "requires_llm": false,
+    "expected": {
+      "add_hard_constraints": {
+        "max_distance_km": 2
+      }
+    }
+  },
+  {
+    "id": "distance-small",
+    "group": "distance",
+    "message": "bán kính 0,5km",
+    "requires_llm": false,
+    "expected": {
+      "add_hard_constraints": {
+        "max_distance_km": 0.5
+      }
+    }
+  },
+  {
+    "id": "distance-zero-invalid",
+    "group": "ambiguous",
+    "message": "trong 0km",
+    "requires_llm": true,
+    "expected": {}
+  },
+  {
+    "id": "remove-beauty",
+    "group": "removal",
+    "message": "không cần quán đẹp nữa",
+    "requires_llm": false,
+    "expected": {
+      "remove_preferences": [
+        "beautiful ambience"
+      ]
+    }
+  },
+  {
+    "id": "remove-beauty-imperative",
+    "group": "removal",
+    "message": "bỏ yêu cầu quán đẹp đi",
+    "requires_llm": false,
+    "expected": {
+      "remove_preferences": [
+        "beautiful ambience"
+      ]
+    }
+  },
+  {
+    "id": "remove-quiet",
+    "group": "removal",
+    "message": "không cần yên tĩnh nữa",
+    "requires_llm": false,
+    "expected": {
+      "remove_preferences": [
+        "quiet"
+      ]
+    }
+  },
+  {
+    "id": "remove-distance",
+    "group": "removal",
+    "message": "bỏ giới hạn 2km",
+    "requires_llm": false,
+    "expected": {
+      "remove_preferences": [
+        "hard_constraints.max_distance_km"
+      ]
+    }
+  },
+  {
+    "id": "remove-vegetarian",
+    "group": "removal",
+    "message": "không cần ăn chay nữa",
+    "requires_llm": false,
+    "expected": {
+      "remove_preferences": [
+        "vegetarian"
+      ]
+    }
+  },
+  {
+    "id": "remove-rating",
+    "group": "removal",
+    "message": "không quan trọng rating cao nữa",
+    "requires_llm": false,
+    "expected": {
+      "remove_preferences": [
+        "rating"
+      ]
+    }
+  },
+  {
+    "id": "remove-wins",
+    "group": "removal",
+    "message": "quán đẹp và không cần quán đẹp nữa",
+    "requires_llm": false,
+    "expected": {
+      "remove_preferences": [
+        "beautiful ambience"
+      ]
+    }
+  },
+  {
+    "id": "remove-budget",
+    "group": "removal",
+    "message": "bỏ giới hạn ngân sách",
+    "requires_llm": false,
+    "expected": {
+      "remove_preferences": [
+        "hard_constraints.budget_max"
+      ]
+    }
+  },
+  {
+    "id": "remove-chill",
+    "group": "removal",
+    "message": "không cần chill nữa",
+    "requires_llm": false,
+    "expected": {
+      "remove_preferences": [
+        "relaxed ambience"
+      ]
+    }
+  },
+  {
+    "id": "semantic-quiet",
+    "group": "semantic",
+    "message": "yên tĩnh",
+    "requires_llm": false,
+    "expected": {
+      "add_semantic_preferences": [
+        "quiet"
+      ]
+    }
+  },
+  {
+    "id": "semantic-bare-chill",
+    "group": "semantic",
+    "message": "chill",
+    "requires_llm": false,
+    "expected": {
+      "add_semantic_preferences": [
+        "relaxed ambience"
+      ]
+    }
+  },
+  {
+    "id": "semantic-short-talk",
+    "group": "semantic",
+    "message": "phù hợp nói chuyện",
+    "requires_llm": false,
+    "expected": {
+      "add_semantic_preferences": [
+        "suitable for conversation"
+      ]
+    }
+  },
+  {
+    "id": "semantic-two",
+    "group": "semantic",
+    "message": "quán đẹp và yên tĩnh",
+    "requires_llm": false,
+    "expected": {
+      "add_semantic_preferences": [
+        "beautiful ambience",
+        "quiet"
+      ]
+    }
+  },
+  {
+    "id": "partial-noise",
+    "group": "partial",
+    "message": "Tìm ramen dưới 150k, quán đẹp nhưng đừng quá ồn",
+    "requires_llm": true,
+    "expected": {
+      "set_values": {
+        "food": [
+          "ramen"
+        ]
+      },
+      "add_hard_constraints": {
+        "budget_max": 150000
+      },
+      "add_semantic_preferences": [
+        "beautiful ambience"
+      ]
+    }
+  },
+  {
+    "id": "partial-long-talk",
+    "group": "partial",
+    "message": "ramen dưới 150k, quán hợp nói chuyện lâu",
+    "requires_llm": true,
+    "expected": {
+      "set_values": {
+        "food": [
+          "ramen"
+        ]
+      },
+      "add_hard_constraints": {
+        "budget_max": 150000
+      }
+    }
+  },
+  {
+    "id": "ambiguous-condition",
+    "group": "ambiguous",
+    "message": "ramen nếu trời mưa",
+    "requires_llm": true,
+    "expected": {
+      "set_values": {
+        "food": [
+          "ramen"
+        ]
+      }
+    }
+  },
+  {
+    "id": "ambiguous-polite",
+    "group": "ambiguous",
+    "message": "Muốn chỗ vừa lịch sự để đi với bạn nhưng không quá sang.",
+    "requires_llm": true,
+    "expected": {}
+  },
+  {
+    "id": "relative-mac-bit",
+    "group": "relative",
+    "message": "mắc hơn chút cũng được",
+    "requires_llm": false,
+    "expected": {
+      "relative_updates": {
+        "budget": "increase"
+      }
+    }
+  },
+  {
+    "id": "relative-both-permissive",
+    "group": "relative",
+    "message": "xa hơn cũng được và đắt hơn cũng được",
+    "requires_llm": false,
+    "expected": {
+      "relative_updates": {
+        "distance": "increase",
+        "budget": "increase"
+      }
+    }
+  },
+  {
+    "id": "relative-removal",
+    "group": "relative",
+    "message": "gần hơn và không cần yên tĩnh nữa",
+    "requires_llm": false,
+    "expected": {
+      "relative_updates": {
+        "distance": "decrease"
+      },
+      "remove_preferences": [
+        "quiet"
+      ]
+    }
+  },
+  {
+    "id": "combined-new",
+    "group": "combined",
+    "message": "pizza không quá 120k trong 2km",
+    "requires_llm": false,
+    "expected": {
+      "set_values": {
+        "food": [
+          "pizza"
+        ]
+      },
+      "add_hard_constraints": {
+        "budget_max": 120000,
+        "max_distance_km": 2
+      }
+    }
+  },
+  {
+    "id": "combined-quiet-veggie",
+    "group": "combined",
+    "message": "món chay và yên tĩnh",
+    "requires_llm": false,
+    "expected": {
+      "add_hard_constraints": {
+        "vegetarian": true
+      },
+      "add_semantic_preferences": [
+        "quiet"
+      ]
+    }
+  },
+  {
+    "id": "negative-repeated",
+    "group": "negative",
+    "message": "không ăn cay, đừng cay",
+    "requires_llm": false,
+    "expected": {
+      "add_negative_preferences": [
+        "spicy"
+      ]
+    }
+  },
+  {
+    "id": "food-two-new",
+    "group": "food",
+    "message": "phở và cơm gà",
+    "requires_llm": false,
+    "expected": {
+      "set_values": {
+        "food": [
+          "phở",
+          "cơm gà"
+        ]
+      }
+    }
+  },
+  {
+    "id": "food-unknown",
+    "group": "unsupported",
+    "message": "tìm bánh xèo",
+    "requires_llm": true,
+    "expected": {}
+  },
+  {
+    "id": "unknown-weather",
+    "group": "unsupported",
+    "message": "thời tiết hôm nay",
+    "requires_llm": true,
+    "expected": {}
+  },
+  {
+    "id": "unknown-english",
+    "group": "unsupported",
+    "message": "somewhere with a sea view",
+    "requires_llm": true,
+    "expected": {}
+  },
+  {
+    "id": "form-removal-budget",
+    "group": "form + chat conflict",
+    "form": {
+      "budget_max": 150000
+    },
+    "message": "bỏ giới hạn ngân sách",
+    "expected": {
+      "add_hard_constraints": {
+        "budget_max": 150000
+      }
+    }
+  },
+  {
+    "id": "form-removal-distance",
+    "group": "form + chat conflict",
+    "form": {
+      "max_distance_km": 2
+    },
+    "message": "bỏ giới hạn 2km",
+    "expected": {
+      "add_hard_constraints": {
+        "max_distance_km": 2
+      }
+    }
+  },
+  {
+    "id": "form-empty-food",
+    "group": "form + chat conflict",
+    "form": {
+      "food": []
+    },
+    "message": "sushi",
+    "expected": {
+      "set_values": {
+        "food": []
+      }
+    }
+  },
+  {
+    "id": "form-zero-budget",
+    "group": "form + chat conflict",
+    "form": {
+      "budget_max": 0
+    },
+    "message": "budget 150k",
+    "expected": {
+      "add_hard_constraints": {
+        "budget_max": 0
+      }
+    }
+  },
+  {
+    "id": "reference-second",
+    "group": "reference",
+    "message": "quán thứ hai",
+    "requires_llm": true,
+    "previous_results": [
+      {
+        "rank": 2,
+        "restaurant_id": "R002"
+      }
+    ],
+    "expected_rule": {},
+    "expected": {
+      "references": [
+        {
+          "status": "resolved",
+          "rank": 2,
+          "restaurant_id": "R002",
+          "mention": "quán thứ hai"
+        }
+      ]
+    }
+  },
+  {
+    "id": "reference-first",
+    "group": "reference",
+    "message": "cái đầu tiên",
+    "requires_llm": true,
+    "previous_results": [
+      {
+        "rank": 1,
+        "restaurant_id": "R001"
+      }
+    ],
+    "expected_rule": {},
+    "expected": {
+      "references": [
+        {
+          "status": "resolved",
+          "rank": 1,
+          "restaurant_id": "R001",
+          "mention": "cái đầu tiên"
+        }
+      ]
+    }
+  },
+  {
+    "id": "reference-name",
+    "group": "reference",
+    "message": "quán B",
+    "requires_llm": true,
+    "previous_results": [
+      {
+        "rank": 2,
+        "restaurant_id": "R002",
+        "restaurant_name": "B"
+      }
+    ],
+    "expected_rule": {},
+    "expected": {
+      "references": [
+        {
+          "status": "resolved",
+          "rank": 2,
+          "restaurant_id": "R002",
+          "mention": "quán B"
+        }
+      ]
+    }
+  },
+  {
+    "id": "reference-missing",
+    "group": "reference",
+    "message": "quán thứ ba",
+    "requires_llm": true,
+    "expected_rule": {},
+    "expected": {
+      "references": [
+        {
+          "status": "unresolved",
+          "mention": "quán thứ ba"
+        }
+      ]
+    }
+  },
+  {
+    "id": "reference-this",
+    "group": "reference",
+    "message": "quán này",
+    "requires_llm": true,
+    "expected_rule": {},
+    "expected": {
+      "references": [
+        {
+          "status": "unresolved",
+          "mention": "quán này"
+        }
+      ]
+    }
+  },
+  {
+    "id": "feedback-second",
+    "group": "feedback",
+    "message": "Cái thứ hai ổn nhưng hơi xa, tìm giống nó mà gần hơn",
+    "requires_llm": true,
+    "previous_results": [
+      {
+        "rank": 2,
+        "restaurant_id": "R002"
+      }
+    ],
+    "mock_response": {
+      "references": [
+        {
+          "rank": 2,
+          "mention": "cái thứ hai",
+          "sentiment": "positive",
+          "similar_to": true
+        }
+      ],
+      "relative_updates": {
+        "distance": "decrease"
+      }
+    },
+    "expected_rule": {
+      "relative_updates": {
+        "distance": "decrease"
+      }
+    },
+    "expected": {
+      "references": [
+        {
+          "status": "resolved",
+          "rank": 2,
+          "restaurant_id": "R002",
+          "mention": "cái thứ hai",
+          "sentiment": "positive",
+          "similar_to": "R002"
+        }
+      ],
+      "relative_updates": {
+        "distance": "decrease"
+      }
+    }
+  },
+  {
+    "id": "feedback-negative",
+    "group": "feedback",
+    "message": "quán A tệ quá",
+    "requires_llm": true,
+    "previous_results": [
+      {
+        "rank": 1,
+        "restaurant_id": "R001",
+        "restaurant_name": "A"
+      }
+    ],
+    "mock_response": {
+      "references": [
+        {
+          "rank": 1,
+          "mention": "quán A",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    "expected_rule": {},
+    "expected": {
+      "references": [
+        {
+          "status": "resolved",
+          "rank": 1,
+          "restaurant_id": "R001",
+          "mention": "quán A",
+          "sentiment": "negative"
+        }
+      ]
+    }
+  },
+  {
+    "id": "vegetarian-removal-wins",
+    "group": "vegetarian",
+    "message": "ăn chay và không cần ăn chay nữa",
+    "requires_llm": false,
+    "expected": {
+      "remove_preferences": [
+        "vegetarian"
+      ]
+    }
+  },
+  {
+    "id": "ambiguous-negated-chill",
+    "group": "ambiguous",
+    "message": "không thích chỗ chill",
+    "requires_llm": true,
+    "expected": {}
+  },
+  {
+    "id": "partial-rating",
+    "group": "partial",
+    "message": "sushi rating cao và có chỗ đậu xe",
+    "requires_llm": true,
+    "expected": {
+      "set_values": {
+        "food": [
+          "sushi"
+        ]
+      },
+      "add_soft_preferences": {
+        "parking": true
+      }
+    }
+  }
+]

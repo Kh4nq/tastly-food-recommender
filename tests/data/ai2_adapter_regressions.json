@@ -1,0 +1,40 @@
+[
+  {
+    "id": "sesame", "message": "Mình bị dị ứng hạt mè, nhờ bạn lưu đúng loại hạt này.",
+    "expected_update": {"add_hard_constraints": {"allergens_excluded": ["sesame"]}},
+    "expected_state": {"session_id": "adapter-regression", "hard_constraints": {"allergens_excluded": ["sesame"]}}
+  },
+  {
+    "id": "milk-peanut", "message": "Mình dị ứng sữa và đậu phộng, ghi nhận cả hai giúp mình.",
+    "expected_update": {"add_hard_constraints": {"allergens_excluded": ["milk", "peanut"]}},
+    "expected_state": {"session_id": "adapter-regression", "hard_constraints": {"allergens_excluded": ["milk", "peanut"]}}
+  },
+  {
+    "id": "wifi-preserve-allergy", "message": "Chỉ bỏ yêu cầu wifi giúp mình, các điều kiện dị ứng đã xác nhận giữ nguyên.",
+    "current_state": {"session_id": "adapter-regression", "hard_constraints": {"allergens_excluded": ["milk", "peanut"]}, "soft_preferences": {"wifi": true}},
+    "expected_update": {"remove_preferences": ["soft_preferences.wifi"]},
+    "expected_state": {"session_id": "adapter-regression", "hard_constraints": {"allergens_excluded": ["milk", "peanut"]}}
+  },
+  {
+    "id": "travel-15", "message": "Thời gian di chuyển không quá 15 phút, nhớ giới hạn này nhé.",
+    "expected_update": {"add_hard_constraints": {"max_travel_time_min": 15}},
+    "expected_state": {"session_id": "adapter-regression", "hard_constraints": {"max_travel_time_min": 15}}
+  },
+  {
+    "id": "feedback-cheaper", "message": "Quán số 2 rẻ hơn nhé.",
+    "current_state": {"session_id": "adapter-regression", "hard_constraints": {"budget_max": 90000}},
+    "previous_results": [{"rank": 2, "restaurant_id": "probe-r2", "menu_item_id": "probe-m2"}],
+    "expected_update": {"relative_updates": {"budget": "decrease"}, "references": [{"status": "resolved", "rank": 2, "restaurant_id": "probe-r2", "menu_item_id": "probe-m2", "mention": "quán số 2"}]},
+    "expected_state": {"session_id": "adapter-regression", "hard_constraints": {"budget_max": 90000}, "reference_restaurants": [{"status": "resolved", "rank": 2, "restaurant_id": "probe-r2", "menu_item_id": "probe-m2", "mention": "quán số 2"}]}
+  },
+  {
+    "id": "context", "message": "Đi với đồng nghiệp, nhóm 3 người vào bữa trưa.",
+    "expected_update": {"context_updates": {"companions": ["colleagues"], "party_size": 3, "meal_time": "lunch"}},
+    "expected_state": {"session_id": "adapter-regression", "context": {"companions": ["colleagues"], "party_size": 3, "meal_time": "lunch"}}
+  },
+  {
+    "id": "unresolved-reference", "message": "Quán đó nhé.",
+    "expected_update": {"references": [{"status": "unresolved", "mention": "quán đó"}]},
+    "expected_state": {"session_id": "adapter-regression", "reference_restaurants": [{"status": "unresolved", "mention": "quán đó"}]}
+  }
+]

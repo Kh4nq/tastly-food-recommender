@@ -1,0 +1,147 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+build/
+dist/
+.env
+.env.*
+!.env.example
+logs/
+benchmarks/results/
+data/ai2_interactive/
+
+# Private interactive records remain ignored; retain only the directory marker.
+!data/ai2_interactive/
+data/ai2_interactive/*
+!data/ai2_interactive/.gitkeep
+
+# Temporary/smoke/batch labeling directories.
+data/ai2_labeling_*/
+
+# Private AI2 labeling artifacts, including journals, reviews and exports.
+data/ai2_labeling/**
+!data/ai2_labeling/**/
+!data/ai2_labeling/**/.gitkeep
+
+# Large artifacts stay external; fixtures under tests/data remain trackable.
+data/raw/**
+!data/raw/**/
+!data/raw/**/.gitkeep
+data/processed/**
+!data/processed/**/
+!data/processed/**/.gitkeep
+data/embeddings/**
+!data/embeddings/**/
+!data/embeddings/**/.gitkeep
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.gguf
+*.onnx
+.ipynb_checkpoints/
+.cache/
+
+# Model metadata/config is intended to be tracked; binary weights are not.
+models/**/*.bin
+models/**/*.pkl
+models/**/*.joblib
+
+# Ignore all local AI2 model/training artifacts by default
+models/ai2/**
+
+# Optional Qwen configuration is public; weights/tokenizers are external.
+!models/ai2/ai2-qwen3-1.7b-lora-targeted-v3/
+!models/ai2/ai2-qwen3-1.7b-lora-targeted-v3/README.md
+!models/ai2/ai2-qwen3-1.7b-lora-targeted-v3/adapter_config.json
+!models/ai2/ai2-qwen3-1.7b-lora-targeted-v3/chat_template.jinja
+
+# Local backup archives
+/MLAI.zip
+/ai2_sft_v1.zip
+/data/data.zip
+/data/ai1-v3-artifacts.zip
+/data/ai1-demo-data.zip
+# Provisioning staging and retained manual-recovery copies contain AI1 data.
+/data/.ai1-provision-*/
+/data/backups/
+
+.venv311/
+.venv-*/
+/repo_tree.txt
+/repo_files.txt
+tmp_dataset_v3/
+
+# Next.js build output at any depth (src/frontend/.gitignore only covers its own root).
+# A stray `next dev` run from the wrong folder leaves a copy elsewhere.
+.next/
+
+# Local datasets, archives and generated artifacts (all directory depths).
+*.zip
+*.7z
+*.rar
+*.tar
+*.tar.gz
+*.parquet
+*.npy
+*.npz
+/data/dataset_manifest.json
+!/data/DATA_DOWNLOAD.txt
+node_modules/
+out/
+coverage/
+htmlcov/
+.coverage*
+.mypy_cache/
+.ruff_cache/
+.tox/
+*.tsbuildinfo
+next-env.d.ts
+*.log
+*.log.*
+*.jsonl.tmp
+*.tmp
+*.temp
+*.bak
+*.backup
+*.orig
+*.rej
+*.pid
+*.dump
+*.sql.gz
+*.sqlite
+*.sqlite3
+*.db
+backups/
+backup/
+catboost_info/
+.public-release/
+.vscode/
+.idea/
+.claude/
+.DS_Store
+Thumbs.db
+*.pem
+*.key
+*.p12
+*.pfx
+.aws/
+.ssh/
+.npmrc
+.pypirc
+credentials*.json
+service-account*.json
+token.json
+
+# Authored optional notebook runners, not generated release bundles.
+!/dist/
+/dist/*
+!/dist/kaggle/
+!/dist/kaggle/*.py
+!/dist/kaggle/*.ipynb
+
+# Protected evaluation prompts and private benchmark records remain external.
+/benchmarks/*.jsonl

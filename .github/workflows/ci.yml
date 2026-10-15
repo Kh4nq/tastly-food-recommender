@@ -1,0 +1,30 @@
+name: Offline tests
+
+on: [push, pull_request]
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      LLM_PROVIDER: none
+      GEMINI_API_KEY: ""
+      OPENAI_API_KEY: ""
+      LOCAL_SLM_ENABLED: "false"
+      LOCAL_SLM_BACKEND: disabled
+      CONVERSATION_LOG_ENABLED: "false"
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install project and test dependencies
+        run: python -m pip install -e ".[test,ai1,ai3,gemini,db,backend]"
+      # The real-data smoke test needs the external AI1 V3 package, unavailable in CI.
+      - name: Run offline tests without sealed benchmark or external data
+        run: python -m pytest -q -p scripts.sealed_benchmark_guard --ignore=tests/test_ai2_ai1_smoke.py
+      - name: Run injected integration demo
+        run: python examples/integration_demo.py

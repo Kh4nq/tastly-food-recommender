@@ -1,0 +1,21 @@
+services:
+  postgres:
+    image: postgres:17
+    container_name: mlai-food-postgres
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-mlai_food}
+      POSTGRES_USER: ${POSTGRES_USER:-mlai}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-mlai_dev_password}
+    ports:
+      - "${POSTGRES_PORT:-5432}:5432"
+    volumes:
+      - mlai_food_postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-mlai} -d ${POSTGRES_DB:-mlai_food}"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+    restart: unless-stopped
+
+volumes:
+  mlai_food_postgres_data:
